@@ -28,3 +28,21 @@ msgstr "Додайте опис для користувачів порталу..
 #: model:ir.model.fields,field_description:project_task_description_portal.field_project_task__use_portal_description
 msgid "Use Portal Description"
 msgstr "Використовувати опис порталу"
+
+#. module: project_task_description_portal
+#: model:ir.model.fields,help:project_task_description_portal.field_project_task__portal_description
+msgid ""
+"Description that will be shown to portal users if 'Use Portal Description' "
+"is enabled"
+msgstr ""
+"Опис, який бачитимуть користувачі порталу, якщо ввімкнено «Використовувати "
+"опис порталу»"
+
+#. module: project_task_description_portal
+#: model:ir.model.fields,help:project_task_description_portal.field_project_task__use_portal_description
+msgid ""
+"If enabled, portal users will see the portal description instead of the "
+"standard one"
+msgstr ""
+"Якщо ввімкнено, користувачі порталу бачитимуть опис для порталу замість "
+"стандартного"

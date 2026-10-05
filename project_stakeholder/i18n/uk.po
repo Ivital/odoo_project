@@ -102,3 +102,13 @@ msgstr "Керувати ролями зацікавлених сторін пр
 #: model_terms:ir.ui.view,arch_db:project_stakeholder.edit_project
 msgid "Project Stakeholders"
 msgstr "Зацікавлені сторони проєкту"
+
+#. module: project_stakeholder
+#: model:ir.model,name:project_stakeholder.model_project_stakeholder
+msgid "Project Stakeholder"
+msgstr "Зацікавлена сторона проєкту"
+
+#. module: project_stakeholder
+#: model:ir.model,name:project_stakeholder.model_project_stakeholder_role
+msgid "Project Stakeholder Role"
+msgstr "Роль зацікавленої сторони проєкту"

@@ -77,3 +77,31 @@ msgstr "Автоматично позначати виконаним через 
 #: model:ir.actions.server,name:project_task_stage_auto_state.ir_cron_auto_change_task_state_ir_actions_server
 msgid "Project: Auto-change task state by stage"
 msgstr "Проєкт: автоматично змінювати стан завдання за етапом"
+
+#. module: project_task_stage_auto_state
+#: model:ir.model.constraint,message:project_task_stage_auto_state.constraint_project_task_type_check_auto_cancel_days
+msgid "Auto Cancel days must be non-negative."
+msgstr "Кількість днів автоскасування не може бути від’ємною."
+
+#. module: project_task_stage_auto_state
+#: model:ir.model.constraint,message:project_task_stage_auto_state.constraint_project_task_type_check_auto_done_days
+msgid "Auto Done days must be non-negative."
+msgstr "Кількість днів автозавершення не може бути від’ємною."
+
+#. module: project_task_stage_auto_state
+#: model:ir.model.fields,help:project_task_stage_auto_state.field_project_task_type__auto_cancel_days
+msgid ""
+"Automatically cancel tasks after staying in this stage for the specified "
+"number of days. Set to 0 to disable this feature."
+msgstr ""
+"Автоматично скасовувати завдання після перебування на цьому етапі вказану "
+"кількість днів. Встановіть 0, щоб вимкнути."
+
+#. module: project_task_stage_auto_state
+#: model:ir.model.fields,help:project_task_stage_auto_state.field_project_task_type__auto_done_days
+msgid ""
+"Automatically mark tasks as done after staying in this stage for the "
+"specified number of days. Set to 0 to disable this feature."
+msgstr ""
+"Автоматично позначати завдання виконаними після перебування на цьому етапі "
+"вказану кількість днів. Встановіть 0, щоб вимкнути."

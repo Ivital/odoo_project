@@ -25,3 +25,19 @@ msgstr "Включати інформацію рядка продажу в оп�
 #: model_terms:ir.ui.view,arch_db:sale_project_task_description_template.product_template_form_inherit_task_template
 msgid "Task Description Template"
 msgstr "Шаблон опису завдання"
+
+#. module: sale_project_task_description_template
+#: model:ir.model.fields,help:sale_project_task_description_template.field_product_product__task_description_template_id
+#: model:ir.model.fields,help:sale_project_task_description_template.field_product_template__task_description_template_id
+msgid "Applies automatically when creating tasks"
+msgstr "Застосовується автоматично під час створення завдань"
+
+#. module: sale_project_task_description_template
+#: model:ir.model.fields,help:sale_project_task_description_template.field_product_product__include_sale_line_info_in_task
+#: model:ir.model.fields,help:sale_project_task_description_template.field_product_template__include_sale_line_info_in_task
+msgid ""
+"If enabled, the sale order line details (e.g., product and quantity) will be"
+" added to the task description before the template content."
+msgstr ""
+"Якщо ввімкнено, деталі рядка замовлення на продаж (наприклад, товар і "
+"кількість) буде додано до опису завдання перед вмістом шаблону."

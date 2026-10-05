@@ -297,3 +297,38 @@ msgstr "Налаштувати ролі проєкту"
 #: model:ir.model.fields,help:project_role.field_project_assignment__website_message_ids
 msgid "Website communication history"
 msgstr "Історія комунікації через вебсайт"
+
+#. module: project_role
+#: model:ir.model,name:project_role.model_project_assignment
+msgid "Project Assignment"
+msgstr "Призначення проєкту"
+
+#. module: project_role
+#: model:ir.model,name:project_role.model_project_role
+msgid "Project Role"
+msgstr "Роль проєкту"
+
+#. module: project_role
+#: model:ir.model.constraint,message:project_role.constraint_project_role_name_company_uniq
+msgid "Role with such name already exists in the company!"
+msgstr "Роль із такою назвою вже існує в компанії!"
+
+#. module: project_role
+#: model:ir.model.constraint,message:project_role.constraint_project_role_name_nocompany_uniq
+msgid "Shared role with such name already exists!"
+msgstr "Спільна роль із такою назвою вже існує!"
+
+#. module: project_role
+#: model:ir.model.constraint,message:project_role.constraint_project_assignment_company_role_user_uniq
+msgid "User may be assigned per role only once within a company!"
+msgstr "Користувача можна призначити до ролі лише один раз у межах компанії!"
+
+#. module: project_role
+#: model:ir.model.constraint,message:project_role.constraint_project_assignment_project_role_user_uniq
+msgid "User may be assigned per role only once within a project!"
+msgstr "Користувача можна призначити до ролі лише один раз у межах проєкту!"
+
+#. module: project_role
+#: model:ir.model.constraint,message:project_role.constraint_project_assignment_nocompany_role_user_uniq
+msgid "User may be assigned per role only once!"
+msgstr "Користувача можна призначити кожній ролі лише один раз!"

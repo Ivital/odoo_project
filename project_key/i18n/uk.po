@@ -33,3 +33,13 @@ msgstr "Показувати попередження ключа"
 #: model_terms:ir.ui.view,arch_db:project_key.edit_project_extend_with_key
 msgid "Using '-' in project keys is not recommended."
 msgstr "Використання «-» у ключах проєкту не рекомендується."
+
+#. module: project_key
+#: model:ir.model.constraint,message:project_key.constraint_project_project_project_key_unique
+msgid "Project key must be unique"
+msgstr "Ключ проєкту має бути унікальним"
+
+#. module: project_key
+#: model:ir.model.constraint,message:project_key.constraint_project_task_task_key_unique
+msgid "Task key must be unique!"
+msgstr "Ключ завдання має бути унікальним!"

@@ -78,3 +78,8 @@ msgstr "Шаблон опису"
 #: model:ir.actions.act_window,name:project_task_description_template.project_task_description_template_action
 msgid "Task Description template"
 msgstr "Шаблон опису завдання"
+
+#. module: project_task_description_template
+#: model:ir.model,name:project_task_description_template.model_project_task_description_template
+msgid "Project Task Description Template"
+msgstr "Шаблон опису завдання проєкту"

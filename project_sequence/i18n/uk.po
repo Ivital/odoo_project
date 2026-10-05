@@ -27,3 +27,22 @@ msgstr "Код послідовності:"
 #: model:ir.model.fields,field_description:project_sequence.field_res_config_settings__project_display_name_pattern
 msgid "Project Display Name Pattern"
 msgstr "Шаблон відображуваної назви проєкту"
+
+#. module: project_sequence
+#: model:ir.model.constraint,message:project_sequence.constraint_project_project_name_required
+msgid "Project name is required"
+msgstr "Назва проєкту обов’язкова"
+
+#. module: project_sequence
+#: model:ir.model.constraint,message:project_sequence.constraint_project_project_sequence_code_unique
+msgid "Sequence code must be unique"
+msgstr "Код послідовності має бути унікальним"
+
+#. module: project_sequence
+#: model:ir.model.fields,help:project_sequence.field_res_config_settings__project_display_name_pattern
+msgid ""
+"Use %(sequence_code)s and %(name)s to include the sequence code and the name"
+" of the project in the display name."
+msgstr ""
+"Використовуйте %(sequence_code)s і %(name)s, щоб включити код послідовності "
+"та назву проєкту у відображувану назву."

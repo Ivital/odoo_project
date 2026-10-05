@@ -78,3 +78,8 @@ msgstr "Рядки набору товарів"
 #: model:ir.actions.act_window,name:project_task_stock_product_set.act_open_wizard_product_set_add_from_task
 msgid "Add a set in a project task"
 msgstr "Додати набір у завдання проєкту"
+
+#. module: project_task_stock_product_set
+#: model:ir.model,name:project_task_stock_product_set.model_project_task_stock_product_set_wizard
+msgid "Wizard model to add product set into a task"
+msgstr "Майстер додавання набору товарів до завдання"

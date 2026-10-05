@@ -42,3 +42,32 @@ msgstr "Етапи проєкту"
 #: model:ir.model.fields,field_description:project_task_default_stage.field_project_task_type__case_default
 msgid "Default for New Projects"
 msgstr "За замовчуванням для нових проєктів"
+
+#. module: project_task_default_stage
+#: model:project.task.type,name:project_task_default_stage.project_tt_design
+msgid "Design"
+msgstr "Дизайн"
+
+#. module: project_task_default_stage
+#: model:project.task.type,name:project_task_default_stage.project_tt_development
+msgid "Development"
+msgstr "Розробка"
+
+#. module: project_task_default_stage
+#: model:ir.model.fields,help:project_task_default_stage.field_project_task_type__case_default
+msgid ""
+"If you check this field, this stage will be proposed by default on each new "
+"project. It will not assign this stage to existing projects."
+msgstr ""
+"Якщо позначити це поле, цей етап за замовчуванням пропонуватиметься для "
+"кожного нового проєкту. Наявним проєктам цей етап не призначатиметься."
+
+#. module: project_task_default_stage
+#: model:project.task.type,name:project_task_default_stage.project_tt_specification
+msgid "Specification"
+msgstr "Специфікація"
+
+#. module: project_task_default_stage
+#: model:project.task.type,name:project_task_default_stage.project_tt_testing
+msgid "Testing"
+msgstr "Тестування"

@@ -49,3 +49,32 @@ msgstr "Режим призначення завдань проєкту"
 #: model:ir.model.fields,field_description:project_task_default_user.field_project_task_type__stage_task_assignment_mode
 msgid "Stage Task Assignment Mode"
 msgstr "Режим призначення завдання етапу"
+
+#. module: project_task_default_user
+#: model:ir.model.fields,help:project_task_default_user.field_project_project__project_task_assignment_mode
+#: model:ir.model.fields,help:project_task_default_user.field_project_task_type__stage_task_assignment_mode
+msgid ""
+"Defines how default users are applied:\n"
+"- Replace: overwrite existing users\n"
+"- Merge: add default users to existing ones\n"
+"\n"
+"Applied on task creation and stage changes."
+msgstr ""
+"Визначає, як застосовуються користувачі за замовчуванням:\n"
+"- Замінити: перезаписати наявних користувачів\n"
+"- Об’єднати: додати типових користувачів до наявних\n"
+"\n"
+"Застосовується під час створення завдання та зміни етапу."
+
+#. module: project_task_default_user
+#: model:ir.model.fields,help:project_task_default_user.field_project_project__default_user_ids
+#: model:ir.model.fields,help:project_task_default_user.field_project_task_type__default_user_ids
+msgid ""
+"If set, tasks will automatically be assigned to these users. On new tasks, "
+"this applies if no users are set. On stage change, the users are replaced "
+"only if the new stage has default users."
+msgstr ""
+"Якщо задано, завдання автоматично призначатимуться цим користувачам. Для "
+"нових завдань це застосовується, якщо користувачів не задано. При зміні "
+"етапу користувачі замінюються лише тоді, коли новий етап має користувачів за"
+" замовчуванням."

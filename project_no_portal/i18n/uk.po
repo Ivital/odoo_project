@@ -37,3 +37,26 @@ msgid ""
 msgstr ""
 "Заборонити користувачам порталу читати проєкти й завдання, блокувати "
 "видимість у порталі та вимкнути дії поширення."
+
+#. module: project_no_portal
+#: model:ir.model,name:project_no_portal.model_project_portal_block_mixin
+msgid "Deny portal users access for companies that block it"
+msgstr "Заборонити користувачам порталу доступ до компаній, які його блокують"
+
+#. module: project_no_portal
+#: model:ir.model.fields,help:project_no_portal.field_res_config_settings__block_project_portal_access
+msgid ""
+"When enabled, portal users of the selected company cannot read its projects "
+"or tasks, and portal visibility cannot be set on them."
+msgstr ""
+"Якщо ввімкнено, користувачі порталу вибраної компанії не зможуть читати її "
+"проєкти чи завдання, а видимість порталу для них не можна буде встановити."
+
+#. module: project_no_portal
+#: model:ir.model.fields,help:project_no_portal.field_res_company__block_project_portal_access
+msgid ""
+"When enabled, portal users of this company cannot read its projects or "
+"tasks, and portal visibility cannot be set on them."
+msgstr ""
+"Якщо ввімкнено, користувачі порталу цієї компанії не зможуть читати її "
+"проєкти чи завдання, а видимість порталу для них не можна буде встановити."

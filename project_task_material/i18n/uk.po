@@ -89,4 +89,4 @@ msgstr "Завдання"
 #. module: project_task_material
 #: model:ir.model,name:project_task_material.model_project_task_material
 msgid "Task Material Used"
-msgstr ""
+msgstr "Використаний матеріал завдання"

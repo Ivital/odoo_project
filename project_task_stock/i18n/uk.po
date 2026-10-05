@@ -271,3 +271,43 @@ msgstr "Завдання для матеріалу"
 #: model_terms:ir.ui.view,arch_db:project_task_stock.view_task_form2
 msgid "Transfer Materials"
 msgstr "Перемістити матеріали"
+
+#. module: project_task_stock
+#: model:ir.model.fields,help:project_task_stock.field_project_project__location_id
+msgid "Default location from which materials are consumed."
+msgstr "Типове місце, з якого споживаються матеріали."
+
+#. module: project_task_stock
+#: model:ir.model.fields,help:project_task_stock.field_project_project__location_dest_id
+msgid "Default location to which materials are consumed."
+msgstr "Типове місце, у якому споживаються матеріали."
+
+#. module: project_task_stock
+#: model:ir.model.fields,help:project_task_stock.field_project_task__done_stock_moves
+#: model:ir.model.fields,help:project_task_stock.field_project_task_type__done_stock_moves
+msgid ""
+"If you check this box, when a task is in this state, you will not be able to"
+" add more stock moves but they can be viewed."
+msgstr ""
+"Якщо позначено, коли завдання перебуває в цьому стані, додавати нові "
+"складські переміщення буде неможливо, але їх можна переглядати."
+
+#. module: project_task_stock
+#: model:ir.model.fields,help:project_task_stock.field_project_task__use_stock_moves
+#: model:ir.model.fields,help:project_task_stock.field_project_task_type__use_stock_moves
+msgid ""
+"If you mark this check, when a task goes to this state, it will use stock "
+"moves"
+msgstr ""
+"Якщо позначено, коли завдання переходить у цей стан, воно використовуватиме "
+"складські переміщення"
+
+#. module: project_task_stock
+#: model:ir.model.fields,help:project_task_stock.field_project_task__stock_analytic_account_id
+msgid "Move created will be assigned to this analytic account"
+msgstr "Створене переміщення буде призначено цьому аналітичному рахунку"
+
+#. module: project_task_stock
+#: model:ir.model.fields,help:project_task_stock.field_project_task__unreserve_visible
+msgid "Technical field to check when we can unreserve"
+msgstr "Технічне поле для перевірки, коли можна зняти резервування"

@@ -387,3 +387,97 @@ msgstr "Запланована дата завершення"
 #: model:ir.model.fields,field_description:project_forecast_line.field_project_task__forecast_date_planned_start
 msgid "Planned start date"
 msgstr "Запланована дата початку"
+
+#. module: project_forecast_line
+#: model:ir.model.fields,help:project_forecast_line.field_forecast_line__consolidated_forecast
+msgid "Consolidated forecast for lines of all types consumed"
+msgstr "Консолідований прогноз для спожитих рядків усіх типів"
+
+#. module: project_forecast_line
+#: model:ir.model.fields,help:project_forecast_line.field_forecast_line__confirmed_consolidated_forecast
+msgid "Consolidated forecast for lines of type confirmed"
+msgstr "Консолідований прогноз для підтверджених рядків"
+
+#. module: project_forecast_line
+#: model:ir.model.fields,help:project_forecast_line.field_forecast_line__date_from
+msgid "Date of the period start for this line"
+msgstr "Дата початку періоду для цього рядка"
+
+#. module: project_forecast_line
+#: model:ir.model,name:project_forecast_line.model_hr_employee_forecast_role
+msgid "Employee forecast role"
+msgstr "Роль прогнозу працівника"
+
+#. module: project_forecast_line
+#: model:ir.model,name:project_forecast_line.model_forecast_role
+msgid "Employee role for task matching"
+msgstr "Роль працівника для зіставлення завдань"
+
+#. module: project_forecast_line
+#: model:ir.model.fields,help:project_forecast_line.field_forecast_line__forecast_hours
+msgid ""
+"Forecast (in hours). Forecast is positive for resources which add forecast, "
+"such as employees, and negative for things which consume forecast, such as "
+"holidays, sales, or tasks."
+msgstr ""
+"Прогноз (у годинах). Прогноз додатний для ресурсів, що додають прогноз, "
+"наприклад працівників, і від’ємний для того, що його споживає, наприклад "
+"відпусток, продажів або завдань."
+
+#. module: project_forecast_line
+#: model:res.groups,name:project_forecast_line.group_forecast_line_on_quotation
+msgid "Manage Forecast Dates on Quotations"
+msgstr "Керування датами прогнозу в комерційних пропозиціях"
+
+#. module: project_forecast_line
+#: model:ir.model.fields,help:project_forecast_line.field_res_company__forecast_line_granularity
+#: model:ir.model.fields,help:project_forecast_line.field_res_config_settings__forecast_line_granularity
+msgid "Periodicity of the forecast that will be generated"
+msgstr "Періодичність прогнозу, який буде створено"
+
+#. module: project_forecast_line
+#: model:ir.model.fields,help:project_forecast_line.field_project_task__forecast_recomputation_trigger
+msgid "Technical field used to trigger the forecast recomputation"
+msgstr ""
+"Технічне поле, що використовується для запуску повторного обчислення "
+"прогнозу"
+
+#. module: project_forecast_line
+#: model:ir.model.fields,help:project_forecast_line.field_project_task__display_name
+msgid ""
+"Use these keywords in the title to set new tasks:\n"
+"\n"
+"        30h Allocate 30 hours to the task\n"
+"        #tags Set tags on the task\n"
+"        @user Assign the task to a user\n"
+"        ! Set the task a high priority\n"
+"\n"
+"        Make sure to use the right format and order e.g. Improve the configuration screen 5h #feature #v16 @Mitchell !"
+msgstr ""
+"Використовуйте ці ключові слова в заголовку, щоб налаштувати нові завдання:\n"
+"\n"
+"        30h Виділити завданню 30 годин\n"
+"        #tags Встановити теги завдання\n"
+"        @user Призначити завдання користувачу\n"
+"        ! Встановити високий пріоритет завдання\n"
+"\n"
+"        Обов'язково використовуйте правильний формат і порядок, наприклад: Improve the configuration screen 5h #feature #v16 @Mitchell !"
+
+#. module: project_forecast_line
+#: model:ir.model,name:project_forecast_line.model_forecast_line_mixin
+msgid "mixin for models which generate forecast lines"
+msgstr "міксин для моделей, які створюють рядки прогнозу"
+
+#. module: project_forecast_line
+#: model:ir.model.fields,help:project_forecast_line.field_forecast_line__employee_resource_forecast_line_id
+msgid ""
+"technical field giving the name of the resource "
+"(model=hr.employee.forecast.role) line for that employee and that period"
+msgstr ""
+"технічне поле, що містить назву рядка ресурсу "
+"(model=hr.employee.forecast.role) для цього працівника й періоду"
+
+#. module: project_forecast_line
+#: model:ir.model.fields,help:project_forecast_line.field_project_project_stage__forecast_line_type
+msgid "type of forecast lines created by the tasks of projects in that stage"
+msgstr "Тип рядків прогнозу, створених завданнями проєктів на цьому етапі"

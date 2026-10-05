@@ -91,3 +91,8 @@ msgstr "Об’єднати завдання проєкту"
 #: model:ir.model.fields,field_description:project_merge.field_project_task_merge__dst_task_id
 msgid "Merge into an existing task"
 msgstr "Об’єднати з наявним завданням"
+
+#. module: project_merge
+#: model:ir.model,name:project_merge.model_project_task_merge
+msgid "Project Task Merge"
+msgstr "Об’єднання завдань проєкту"

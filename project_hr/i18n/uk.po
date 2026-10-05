@@ -38,3 +38,32 @@ msgstr "Пов’язані працівники"
 #: model:ir.model.fields,field_description:project_hr.field_project_task__domain_hr_category_ids
 msgid "Domain Hr Category"
 msgstr "Домен категорії HR"
+
+#. module: project_hr
+#: model:ir.model.fields,help:project_hr.field_project_project__hr_category_ids
+msgid ""
+"Here you can link the project to several employee categories, that will be "
+"the allowed in tasks."
+msgstr ""
+"Тут можна пов’язати проєкт із кількома категоріями працівників, які будуть "
+"дозволені в завданнях."
+
+#. module: project_hr
+#: model:ir.model.fields,help:project_hr.field_project_task__hr_category_ids
+msgid ""
+"Here you can select the employee category suitable to perform this task, "
+"limiting the selectable users to be assigned to those that belongs to that "
+"category."
+msgstr ""
+"Тут можна вибрати категорію працівників, придатну для виконання цього "
+"завдання, обмеживши доступних для призначення користувачів тими, хто "
+"належить до цієї категорії."
+
+#. module: project_hr
+#: model:ir.model.fields,help:project_hr.field_res_users__hr_category_ids
+msgid ""
+"Technical field for computing dynamically employee categories linked to the "
+"user in the current company."
+msgstr ""
+"Технічне поле для динамічного обчислення категорій працівників, пов’язаних "
+"із користувачем у поточній компанії."

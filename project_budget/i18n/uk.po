@@ -66,3 +66,18 @@ msgstr "Практична сума"
 #: model_terms:ir.ui.view,arch_db:project_budget.project_budget_inherit_form
 msgid "Theoretical Amount"
 msgstr "Теоретична сума"
+
+#. module: project_budget
+#: model:ir.module.category,name:project_budget.module_category_project_budget
+msgid "Project Budget"
+msgstr "Бюджет проекту"
+
+#. module: project_budget
+#: model:ir.module.category,description:project_budget.module_category_project_budget
+msgid "User access level for Project Budgets"
+msgstr "Рівень доступу користувача до бюджетів проєкту"
+
+#. module: project_budget
+#: model:res.groups,name:project_budget.group_project_budget_viewer
+msgid "Viewer"
+msgstr "Переглядач"

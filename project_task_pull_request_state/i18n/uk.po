@@ -47,3 +47,13 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:project_task_pull_request_state.res_config_settings_view_form
 msgid "Project Task Pull Request"
 msgstr "Pull request завдання проєкту"
+
+#. module: project_task_pull_request_state
+#: model:ir.model.fields,help:project_task_pull_request_state.field_project_project__pr_state_default
+#: model:ir.model.fields,help:project_task_pull_request_state.field_res_config_settings__pr_state_default
+msgid ""
+"Default PR state that will be set when PR URI is added to a task in this "
+"project"
+msgstr ""
+"Типовий стан PR, який буде встановлено, коли URI PR додано до завдання в "
+"цьому проєкті"
