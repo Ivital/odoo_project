@@ -56,3 +56,9 @@ msgstr "Кількість рахунків закупівлі"
 #: model_terms:ir.ui.view,arch_db:project_purchase_link.project_project_view_form
 msgid "Purchase Invoices"
 msgstr "Рахунки закупівель"
+
+#. module: project_purchase_link
+#. odoo-python
+#: code:addons/project_purchase_link/models/project_project.py:0
+msgid "Purchase Invoice Lines"
+msgstr "Рядки рахунків закупівлі"

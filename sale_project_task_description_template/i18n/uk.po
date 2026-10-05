@@ -41,3 +41,9 @@ msgid ""
 msgstr ""
 "Якщо ввімкнено, деталі рядка замовлення на продаж (наприклад, товар і "
 "кількість) буде додано до опису завдання перед вмістом шаблону."
+
+#. module: sale_project_task_description_template
+#. odoo-python
+#: code:addons/sale_project_task_description_template/models/sale_order_line.py:0
+msgid "%(product)s - Qty: %(qty)s"
+msgstr "%(product)s - К-сть: %(qty)s"

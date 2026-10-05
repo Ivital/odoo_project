@@ -67,3 +67,18 @@ msgid ""
 msgstr ""
 "Технічне поле для динамічного обчислення категорій працівників, пов’язаних "
 "із користувачем у поточній компанії."
+
+#. module: project_hr
+#. odoo-python
+#: code:addons/project_hr/models/project_task.py:0
+msgid "You can't assign a category that is not allowed at project level."
+msgstr "Не можна призначити категорію, яка не дозволена на рівні проєкту."
+
+#. module: project_hr
+#. odoo-python
+#: code:addons/project_hr/models/project_task.py:0
+msgid ""
+"You can't assign a user not belonging to the selected employee category."
+msgstr ""
+"Не можна призначити користувача, який не належить до вибраної категорії "
+"працівників."

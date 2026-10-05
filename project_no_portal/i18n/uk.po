@@ -60,3 +60,25 @@ msgid ""
 msgstr ""
 "Якщо ввімкнено, користувачі порталу цієї компанії не зможуть читати її "
 "проєкти чи завдання, а видимість порталу для них не можна буде встановити."
+
+#. module: project_no_portal
+#. odoo-python
+#: code:addons/project_no_portal/models/project_project.py:0
+msgid ""
+"Portal visibility is disabled for company %(company)s: portal users can not "
+"access its projects or tasks."
+msgstr ""
+"Видимість порталу вимкнено для компанії %(company)s: користувачі порталу не "
+"можуть отримувати доступ до її проєктів або завдань."
+
+#. module: project_no_portal
+#. odoo-python
+#: code:addons/project_no_portal/models/portal_share.py:0
+#: code:addons/project_no_portal/models/project_project.py:0
+msgid ""
+"Sharing is disabled for company %(company)s: portal users can not access its"
+" projects or tasks. An administrator can allow it in Settings > Project."
+msgstr ""
+"Спільний доступ вимкнено для компанії %(company)s: користувачі порталу не "
+"можуть отримувати доступ до її проєктів або завдань. Адміністратор може "
+"дозволити це в Налаштуваннях > Проєкт."

@@ -53,3 +53,13 @@ msgstr "Члени вибраних груп можуть переміщуват
 #: model_terms:ir.ui.view,arch_db:project_task_stage_change_restriction.view_project_task_type_form_restriction
 msgid "Stage Change Restriction"
 msgstr "Обмеження зміни етапу"
+
+#. module: project_task_stage_change_restriction
+#. odoo-python
+#: code:addons/project_task_stage_change_restriction/models/project_task.py:0
+msgid ""
+"Sorry, you are not allowed to move the task '%(task)s' into the stage "
+"'%(stage)s'."
+msgstr ""
+"На жаль, вам не дозволено переміщувати завдання «%(task)s» на етап "
+"«%(stage)s»."

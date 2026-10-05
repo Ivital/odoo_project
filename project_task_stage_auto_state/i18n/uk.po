@@ -105,3 +105,30 @@ msgid ""
 msgstr ""
 "Автоматично позначати завдання виконаними після перебування на цьому етапі "
 "вказану кількість днів. Встановіть 0, щоб вимкнути."
+
+#. module: project_task_stage_auto_state
+#. odoo-python
+#: code:addons/project_task_stage_auto_state/models/project_task.py:0
+msgid "Task automatically %(mode)s after %(days)i days in stage '%(stage)s'."
+msgstr ""
+"Завдання автоматично %(mode)s через %(days)i днів на етапі «%(stage)s»."
+
+#. module: project_task_stage_auto_state
+#. odoo-python
+#: code:addons/project_task_stage_auto_state/models/project_task_type.py:0
+msgid ""
+"When 'Auto-cancel after days' is set for stage '%(stage)s', at least one "
+"state must be selected to allow auto-cancel."
+msgstr ""
+"Коли для етапу «%(stage)s» задано «Автоскасування через дні», потрібно "
+"вибрати щонайменше один стан для автоскасування."
+
+#. module: project_task_stage_auto_state
+#. odoo-python
+#: code:addons/project_task_stage_auto_state/models/project_task_type.py:0
+msgid ""
+"When 'Auto-mark as done after days' is set for stage '%(stage)s', at least "
+"one state must be selected to allow marking as done."
+msgstr ""
+"Коли для етапу «%(stage)s» задано «Автоматично позначати виконаним через "
+"дні», потрібно вибрати щонайменше один стан."

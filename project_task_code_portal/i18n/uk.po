@@ -27,3 +27,15 @@ msgstr "Код завдання"
 #: model:ir.model.fields,field_description:project_task_code_portal.field_project_task__portal_url_visible
 msgid "Portal Url Visible"
 msgstr "URL порталу видимий"
+
+#. module: project_task_code_portal
+#. odoo-python
+#: code:addons/project_task_code_portal/controllers/portal.py:0
+msgid "No task with this code."
+msgstr "Завдання з таким кодом немає."
+
+#. module: project_task_code_portal
+#. odoo-python
+#: code:addons/project_task_code_portal/controllers/portal.py:0
+msgid "Search in Task code"
+msgstr "Шукати в коді завдання"

@@ -78,7 +78,7 @@ msgstr "Кількість"
 #: code:addons/project_task_material/models/project.py:0
 #, python-format
 msgid "Quantity of material consumed must be greater than 0."
-msgstr ""
+msgstr "Кількість спожитого матеріалу має бути більшою за 0."
 
 #. module: project_task_material
 #: model:ir.model,name:project_task_material.model_project_task

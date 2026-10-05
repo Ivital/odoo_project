@@ -50,7 +50,7 @@ msgstr ""
 #: code:addons/project_timeline/models/project_task.py:0
 #, python-format
 msgid "The end date must be after the start date."
-msgstr ""
+msgstr "Дата завершення має бути пізнішою за дату початку."
 
 #. module: project_timeline
 #: model_terms:ir.ui.view,arch_db:project_timeline.project_task_timeline

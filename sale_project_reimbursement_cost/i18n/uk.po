@@ -41,3 +41,16 @@ msgstr "Товар забезпечення"
 #: model:ir.actions.act_window,name:sale_project_reimbursement_cost.sol_reimbursement_cost_action
 msgid "Reimbursement cost"
 msgstr "Вартість відшкодування"
+
+#. module: sale_project_reimbursement_cost
+#. odoo-javascript
+#: code:addons/sale_project_reimbursement_cost/static/src/components/project_right_side_panel/project_right_side_panel.xml:0
+#: model:product.template,name:sale_project_reimbursement_cost.product_provision_product_template
+msgid "Provision"
+msgstr "Резерв"
+
+#. module: sale_project_reimbursement_cost
+#. odoo-javascript
+#: code:addons/sale_project_reimbursement_cost/static/src/components/project_right_side_panel/project_right_side_panel.xml:0
+msgid "Provisions"
+msgstr "Резерви"

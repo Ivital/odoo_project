@@ -332,3 +332,55 @@ msgstr "Користувача можна призначити до ролі л�
 #: model:ir.model.constraint,message:project_role.constraint_project_assignment_nocompany_role_user_uniq
 msgid "User may be assigned per role only once!"
 msgstr "Користувача можна призначити кожній ролі лише один раз!"
+
+#. module: project_role
+#. odoo-python
+#: code:addons/project_role/models/project_assignment.py:0
+msgid "%(USER)s as %(ROLE)s"
+msgstr "%(USER)s як %(ROLE)s"
+
+#. module: project_role
+#. odoo-python
+#: code:addons/project_role/models/project_assignment.py:0
+msgid "%(USER)s as %(ROLE)s in %(PROJECT)s"
+msgstr "%(USER)s як %(ROLE)s у %(PROJECT)s"
+
+#. module: project_role
+#. odoo-python
+#: code:addons/project_role/models/project_assignment.py:0
+msgid "%(USER)s as %(ROLE)s on %(PROJECT)s"
+msgstr "%(USER)s як %(ROLE)s для %(PROJECT)s"
+
+#. module: project_role
+#. odoo-python
+#: code:addons/project_role/models/project_assignment.py:0
+msgid ""
+"Assignment %(ASSIGNMENT)s conflicts with another assignment: "
+"%(OTHER_ASSIGNMENT)s"
+msgstr ""
+"Призначення %(ASSIGNMENT)s конфліктує з іншим призначенням: "
+"%(OTHER_ASSIGNMENT)s"
+
+#. module: project_role
+#. odoo-python
+#: code:addons/project_role/models/project_role.py:0
+msgid "Please activate first parent role %s"
+msgstr "Спочатку активуйте батьківську роль %s"
+
+#. module: project_role
+#. odoo-python
+#: code:addons/project_role/models/project_role.py:0
+msgid "Role \"%s\" conflicts with another role due to same name."
+msgstr "Роль «%s» конфліктує з іншою роллю через однакову назву."
+
+#. module: project_role
+#. odoo-python
+#: code:addons/project_role/models/project_assignment.py:0
+msgid "User %(USER)s can not be assigned to role %(ROLE)s on %(PROJECT)s."
+msgstr "Користувача %(USER)s не можна призначити ролі %(ROLE)s у %(PROJECT)s."
+
+#. module: project_role
+#. odoo-python
+#: code:addons/project_role/models/project_assignment.py:0
+msgid "User %(USER)s can not be assigned to role %(ROLE)s."
+msgstr "Користувача %(USER)s не можна призначити ролі %(ROLE)s."

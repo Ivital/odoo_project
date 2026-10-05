@@ -36,7 +36,7 @@ msgstr "URI PR"
 msgid ""
 "Please add the URI for the pull request before moving the task to this "
 "stage."
-msgstr ""
+msgstr "Додайте URI pull request, перш ніж переводити завдання на цей етап."
 
 #. module: project_task_pull_request
 #: model:ir.model,name:project_task_pull_request.model_project_project

@@ -311,3 +311,10 @@ msgstr "Створене переміщення буде призначено ц
 #: model:ir.model.fields,help:project_task_stock.field_project_task__unreserve_visible
 msgid "Technical field to check when we can unreserve"
 msgstr "Технічне поле для перевірки, коли можна зняти резервування"
+
+#. module: project_task_stock
+#. odoo-python
+#: code:addons/project_task_stock/models/project_task.py:0
+msgid "It is not possible to change this with reserved movements in tasks."
+msgstr ""
+"Неможливо змінити це за наявності зарезервованих переміщень у завданнях."

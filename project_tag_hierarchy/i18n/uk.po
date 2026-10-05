@@ -27,3 +27,9 @@ msgstr "Батьківський шлях"
 #: model:ir.model.fields,field_description:project_tag_hierarchy.field_project_tags__parent_id
 msgid "Parent Tag"
 msgstr "Батьківський тег"
+
+#. module: project_tag_hierarchy
+#. odoo-python
+#: code:addons/project_tag_hierarchy/models/project_tags.py:0
+msgid "You can not create recursive tags."
+msgstr "Не можна створювати рекурсивні теги."

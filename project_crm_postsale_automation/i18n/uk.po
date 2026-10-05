@@ -229,3 +229,76 @@ msgid ""
 msgstr ""
 "Логічна дата післяпродажного циклу, до якого належить цей лід. "
 "Використовується для запобігання дублям."
+
+#. module: project_crm_postsale_automation
+#. odoo-python
+#: code:addons/project_crm_postsale_automation/models/project.py:0
+msgid "%(period)s %(year)s - Postsale"
+msgstr "%(period)s %(year)s - Післяпродажний"
+
+#. module: project_crm_postsale_automation
+#. odoo-python
+#: code:addons/project_crm_postsale_automation/models/project.py:0
+msgid ""
+"<p class='text-danger'><b>⚠️ Configuration Error:</b> %(error_msg)s</p>"
+msgstr ""
+"<p class='text-danger'><b>⚠️ Помилка конфігурації:</b> %(error_msg)s</p>"
+
+#. module: project_crm_postsale_automation
+#. odoo-python
+#: code:addons/project_crm_postsale_automation/models/project.py:0
+msgid "<p class='text-muted'>Not active or missing next date.</p>"
+msgstr "<p class='text-muted'>Неактивно або відсутня наступна дата.</p>"
+
+#. module: project_crm_postsale_automation
+#. odoo-python
+#: code:addons/project_crm_postsale_automation/models/project.py:0
+msgid "Day %s"
+msgstr "День %s"
+
+#. module: project_crm_postsale_automation
+#. odoo-python
+#: code:addons/project_crm_postsale_automation/models/project.py:0
+msgid "Day of month must be between 1 and 31."
+msgstr "День місяця має бути між 1 і 31."
+
+#. module: project_crm_postsale_automation
+#. odoo-python
+#: code:addons/project_crm_postsale_automation/models/project.py:0
+msgid ""
+"Invalid Name Template syntax. Please check your brackets {} and use only "
+"allowed variables:{project_name}, {period_label}, {year}."
+msgstr ""
+"Недійсний синтаксис шаблону назви. Перевірте дужки {} і використовуйте лише "
+"дозволені змінні: {project_name}, {period_label}, {year}."
+
+#. module: project_crm_postsale_automation
+#. odoo-python
+#: code:addons/project_crm_postsale_automation/models/project.py:0
+msgid "Periodicity must be greater than 0."
+msgstr "Періодичність має бути більшою за 0."
+
+#. module: project_crm_postsale_automation
+#. odoo-python
+#: code:addons/project_crm_postsale_automation/models/project.py:0
+msgid "Please set a Post-sale Responsible."
+msgstr "Встановіть відповідального за післяпродажне обслуговування."
+
+#. module: project_crm_postsale_automation
+#. odoo-python
+#: code:addons/project_crm_postsale_automation/models/project.py:0
+msgid "Post-sale Opportunities"
+msgstr "Можливості після продажу"
+
+#. module: project_crm_postsale_automation
+#. odoo-python
+#: code:addons/project_crm_postsale_automation/models/project.py:0
+msgid "Post-sale tracking ACTIVATED. Interval: %(interval)s %(rule)s."
+msgstr ""
+"Післяпродажне відстеження АКТИВОВАНО. Інтервал: %(interval)s %(rule)s."
+
+#. module: project_crm_postsale_automation
+#. odoo-python
+#: code:addons/project_crm_postsale_automation/models/project.py:0
+msgid "Post-sale tracking DEACTIVATED."
+msgstr "Післяпродажне відстеження ДЕАКТИВОВАНО."

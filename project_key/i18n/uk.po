@@ -43,3 +43,9 @@ msgstr "Ключ проєкту має бути унікальним"
 #: model:ir.model.constraint,message:project_key.constraint_project_task_task_key_unique
 msgid "Task key must be unique!"
 msgstr "Ключ завдання має бути унікальним!"
+
+#. module: project_key
+#. odoo-python
+#: code:addons/project_key/models/project_project.py:0
+msgid "Project task sequence for project"
+msgstr "Послідовність завдань проєкту для проєкту"
