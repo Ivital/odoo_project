@@ -17,3 +17,8 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:sale_project_copy_tasks.view_order_form_inherit_sale_project_copy_taks
 msgid "Project"
 msgstr "Проєкт"
+
+#. module: sale_project_copy_tasks
+#: model:ir.model.fields.selection,name:sale_project_copy_tasks.selection__product_template__service_tracking__copy_tasks_in_project
+msgid "Copy tasks into sale order's project"
+msgstr "Копіювати завдання до проєкту замовлення на продаж"

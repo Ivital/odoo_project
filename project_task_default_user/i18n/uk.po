@@ -29,3 +29,23 @@ msgstr "Об'єднати"
 #: model:ir.model.fields.selection,name:project_task_default_user.selection__project_task_type__stage_task_assignment_mode__replace
 msgid "Replace"
 msgstr "Замінити"
+
+#. module: project_task_default_user
+#: model:ir.model.fields,field_description:project_task_default_user.field_project_project__default_user_ids
+msgid "Default Users for Tasks"
+msgstr "Користувачі за замовчуванням для завдань"
+
+#. module: project_task_default_user
+#: model:ir.model.fields,field_description:project_task_default_user.field_project_task_type__default_user_ids
+msgid "Default Users for this Stage"
+msgstr "Користувачі за замовчуванням для цього етапу"
+
+#. module: project_task_default_user
+#: model:ir.model.fields,field_description:project_task_default_user.field_project_project__project_task_assignment_mode
+msgid "Project Task Assignment Mode"
+msgstr "Режим призначення завдань проєкту"
+
+#. module: project_task_default_user
+#: model:ir.model.fields,field_description:project_task_default_user.field_project_task_type__stage_task_assignment_mode
+msgid "Stage Task Assignment Mode"
+msgstr "Режим призначення завдання етапу"

@@ -201,3 +201,73 @@ msgstr "Зняти резервування"
 #: model:ir.model.fields,field_description:project_task_stock.field_project_task_type__use_stock_moves
 msgid "Use Stock Moves"
 msgstr "Використовувати складські переміщення"
+
+#. module: project_task_stock
+#: model:ir.model.fields,field_description:project_task_stock.field_project_task__allow_moves_action_assign
+msgid "Allow Moves Action Assign"
+msgstr "Дозволити дію «Призначити» для переміщень"
+
+#. module: project_task_stock
+#: model:ir.model.fields,field_description:project_task_stock.field_project_task__allow_moves_action_confirm
+msgid "Allow Moves Action Confirm"
+msgstr "Дозволити дію «Підтвердити» для переміщень"
+
+#. module: project_task_stock
+#: model:ir.model.fields,field_description:project_task_stock.field_project_task__unreserve_visible
+msgid "Allowed to Unreserve Inventory"
+msgstr "Дозволено зняти резервування запасів"
+
+#. module: project_task_stock
+#: model_terms:ir.ui.view,arch_db:project_task_stock.view_stock_move_raw_list
+msgid "Are you sure you want to proceed?"
+msgstr "Ви впевнені, що хочете продовжити?"
+
+#. module: project_task_stock
+#: model_terms:ir.ui.view,arch_db:project_task_stock.view_task_form2
+msgid "Check availability materials"
+msgstr "Перевірити доступність матеріалів"
+
+#. module: project_task_stock
+#: model_terms:ir.ui.view,arch_db:project_task_stock.view_task_form2
+msgid "Confirm materials"
+msgstr "Підтвердити матеріали"
+
+#. module: project_task_stock
+#: model_terms:ir.ui.view,arch_db:project_task_stock.view_stock_move_raw_list
+msgid "Forecasted Report"
+msgstr "Прогнозований звіт"
+
+#. module: project_task_stock
+#: model:ir.model.fields,field_description:project_task_stock.field_project_task__stock_analytic_account_id
+msgid "Move Analytic Account"
+msgstr "Перемістити аналітичний рахунок"
+
+#. module: project_task_stock
+#: model:ir.model.fields,field_description:project_task_stock.field_stock_move__show_cancel_button_in_task
+msgid "Show Cancel Button In Task"
+msgstr "Показувати кнопку скасування в завданні"
+
+#. module: project_task_stock
+#: model:ir.model.fields,field_description:project_task_stock.field_project_task__stock_analytic_distribution
+msgid "Stock Analytic Distribution"
+msgstr "Аналітичний розподіл запасів"
+
+#. module: project_task_stock
+#: model:ir.model.fields,field_description:project_task_stock.field_project_task__stock_analytic_line_ids
+msgid "Stock Analytic Lines"
+msgstr "Аналітичні рядки запасів"
+
+#. module: project_task_stock
+#: model:ir.model.fields,field_description:project_task_stock.field_project_task__stock_moves_is_locked
+msgid "Stock Moves Is Locked"
+msgstr "Рухи запасів заблоковано"
+
+#. module: project_task_stock
+#: model:ir.model.fields,field_description:project_task_stock.field_stock_move__raw_material_task_id
+msgid "Task for material"
+msgstr "Завдання для матеріалу"
+
+#. module: project_task_stock
+#: model_terms:ir.ui.view,arch_db:project_task_stock.view_task_form2
+msgid "Transfer Materials"
+msgstr "Перемістити матеріали"

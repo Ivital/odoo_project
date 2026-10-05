@@ -28,3 +28,28 @@ msgstr "Учасники групи"
 #: model:ir.model.fields,field_description:project_task_stage_change_restriction.field_project_task_type__allow_project_manager
 msgid "Project Manager"
 msgstr "Менеджер проєкту"
+
+#. module: project_task_stage_change_restriction
+#: model_terms:ir.ui.view,arch_db:project_task_stage_change_restriction.view_project_task_type_form_restriction
+msgid "If enabled, only the project manager can move tasks into this stage."
+msgstr ""
+"Якщо ввімкнено, лише керівник проєкту може переміщувати завдання на цей "
+"етап."
+
+#. module: project_task_stage_change_restriction
+#: model_terms:ir.ui.view,arch_db:project_task_stage_change_restriction.view_project_task_type_form_restriction
+msgid ""
+"If enabled, only users assigned to the task can move it into this stage."
+msgstr ""
+"Якщо ввімкнено, лише користувачі, призначені на завдання, можуть "
+"переміщувати його на цей етап."
+
+#. module: project_task_stage_change_restriction
+#: model_terms:ir.ui.view,arch_db:project_task_stage_change_restriction.view_project_task_type_form_restriction
+msgid "Members of selected groups can move tasks into this stage."
+msgstr "Члени вибраних груп можуть переміщувати завдання на цей етап."
+
+#. module: project_task_stage_change_restriction
+#: model_terms:ir.ui.view,arch_db:project_task_stage_change_restriction.view_project_task_type_form_restriction
+msgid "Stage Change Restriction"
+msgstr "Обмеження зміни етапу"

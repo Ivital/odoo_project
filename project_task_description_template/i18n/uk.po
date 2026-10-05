@@ -63,3 +63,18 @@ msgstr "Останнє оновлення ким"
 #: model:ir.model.fields,field_description:project_task_description_template.field_project_task_description_template__write_date
 msgid "Last Updated on"
 msgstr "Останнє оновлення"
+
+#. module: project_task_description_template
+#: model_terms:ir.actions.act_window,help:project_task_description_template.project_task_description_template_action
+msgid "Click to create a new description template."
+msgstr "Натисніть, щоб створити новий шаблон опису."
+
+#. module: project_task_description_template
+#: model:ir.model.fields,field_description:project_task_description_template.field_project_task__description_template_id
+msgid "Description Template"
+msgstr "Шаблон опису"
+
+#. module: project_task_description_template
+#: model:ir.actions.act_window,name:project_task_description_template.project_task_description_template_action
+msgid "Task Description template"
+msgstr "Шаблон опису завдання"

@@ -23,3 +23,17 @@ msgstr "Блокувати портальний доступ до проєкті
 #: model_terms:ir.ui.view,arch_db:project_no_portal.res_config_settings_view_form
 msgid "Portal Access"
 msgstr "Доступ до порталу"
+
+#. module: project_no_portal
+#: model:ir.model.fields,field_description:project_no_portal.field_project_task__portal_share_blocked
+msgid "Portal Share Blocked"
+msgstr "Спільний доступ порталу заблоковано"
+
+#. module: project_no_portal
+#: model_terms:ir.ui.view,arch_db:project_no_portal.res_config_settings_view_form
+msgid ""
+"Prevent portal users from reading projects and tasks, block portal "
+"visibility, and disable the share actions."
+msgstr ""
+"Заборонити користувачам порталу читати проєкти й завдання, блокувати "
+"видимість у порталі та вимкнути дії поширення."

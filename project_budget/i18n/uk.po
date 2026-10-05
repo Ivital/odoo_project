@@ -51,3 +51,18 @@ msgstr "Запланована сума"
 #: model_terms:ir.ui.view,arch_db:project_budget.project_budget_inherit_form
 msgid "Project Period"
 msgstr "Період проєкту"
+
+#. module: project_budget
+#: model:ir.model.fields,field_description:project_budget.field_crossovered_budget__analytic_account_id
+msgid "Default Analytic Account"
+msgstr "Аналітичний рахунок за замовчуванням"
+
+#. module: project_budget
+#: model_terms:ir.ui.view,arch_db:project_budget.project_budget_inherit_form
+msgid "Practical Amount"
+msgstr "Практична сума"
+
+#. module: project_budget
+#: model_terms:ir.ui.view,arch_db:project_budget.project_budget_inherit_form
+msgid "Theoretical Amount"
+msgstr "Теоретична сума"

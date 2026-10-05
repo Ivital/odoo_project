@@ -43,3 +43,13 @@ msgstr "Пов'язані завдання"
 #: model_terms:ir.ui.view,arch_db:project_task_related.view_project_task_search_inherit_same_customer
 msgid "Same customer"
 msgstr "Той самий клієнт"
+
+#. module: project_task_related
+#: model:ir.model.fields,field_description:project_task_related.field_project_task__reverse_related_task_ids
+msgid "Other to self task relation"
+msgstr "Зв’язок завдання іншого із собою"
+
+#. module: project_task_related
+#: model:ir.model.fields,field_description:project_task_related.field_project_task__forward_related_task_ids
+msgid "Self to other task relation"
+msgstr "Зв’язок власного завдання з іншим"

@@ -22,3 +22,8 @@ msgstr "Код послідовності"
 #: model_terms:ir.ui.view,arch_db:project_sequence.project_sequence_form_view
 msgid "Sequence code:"
 msgstr "Код послідовності:"
+
+#. module: project_sequence
+#: model:ir.model.fields,field_description:project_sequence.field_res_config_settings__project_display_name_pattern
+msgid "Project Display Name Pattern"
+msgstr "Шаблон відображуваної назви проєкту"

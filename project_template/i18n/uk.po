@@ -33,3 +33,13 @@ msgstr "Є шаблоном?"
 #: model_terms:ir.ui.view,arch_db:project_template.project_template_view_inherit_search
 msgid "Non-Templates"
 msgstr "Не шаблони"
+
+#. module: project_template
+#: model_terms:ir.ui.view,arch_db:project_template.project_template_view_inherit_form
+msgid "Create Project From Template"
+msgstr "Створити проєкт із шаблону"
+
+#. module: project_template
+#: model_terms:ir.ui.view,arch_db:project_template.project_template_view_inherit_kanban
+msgid "Create Project from Template"
+msgstr "Створити проєкт із шаблону"

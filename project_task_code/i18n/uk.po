@@ -39,4 +39,4 @@ msgstr "Номер завдання"
 #: model:ir.model.constraint,message:project_task_code.constraint_project_task_project_task_unique_code
 #, python-format
 msgid "The code must be unique!"
-msgstr ""
+msgstr "Код має бути унікальним!"

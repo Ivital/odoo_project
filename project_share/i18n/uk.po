@@ -18,3 +18,8 @@ msgstr ""
 #: model:ir.model.fields,field_description:project_share.field_project_share_collaborator_wizard__readonly
 msgid "Readonly"
 msgstr "Лише читання"
+
+#. module: project_share
+#: model:ir.model.fields,field_description:project_share.field_project_project__edit_collaborator_ids
+msgid "Editing Collaborators"
+msgstr "Редагування співавторів"

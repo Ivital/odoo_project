@@ -37,3 +37,8 @@ msgstr "Об'єднати"
 #: model_terms:ir.ui.view,arch_db:project_task_default_stage.edit_project
 msgid "Project Stages"
 msgstr "Етапи проєкту"
+
+#. module: project_task_default_stage
+#: model:ir.model.fields,field_description:project_task_default_stage.field_project_task_type__case_default
+msgid "Default for New Projects"
+msgstr "За замовчуванням для нових проєктів"

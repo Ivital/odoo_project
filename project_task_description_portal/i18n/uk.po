@@ -18,3 +18,13 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:project_task_description_portal.view_task_form2_inherit
 msgid "Portal Description"
 msgstr "Опис порталу"
+
+#. module: project_task_description_portal
+#: model_terms:ir.ui.view,arch_db:project_task_description_portal.view_task_form2_inherit
+msgid "Add a description for portal users..."
+msgstr "Додайте опис для користувачів порталу..."
+
+#. module: project_task_description_portal
+#: model:ir.model.fields,field_description:project_task_description_portal.field_project_task__use_portal_description
+msgid "Use Portal Description"
+msgstr "Використовувати опис порталу"

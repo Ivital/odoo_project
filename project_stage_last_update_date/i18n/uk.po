@@ -9,6 +9,12 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
 #. module: project_stage_last_update_date
-#: model:ir.module.module,shortdesc:base.module_project_stage_last_update_date model:ir.module.module,summary:base.module_project_stage_last_update_date
+#: model:ir.module.module,shortdesc:base.module_project_stage_last_update_date
+#: model:ir.module.module,summary:base.module_project_stage_last_update_date
 msgid "Project Stage Last Update Date"
 msgstr "Дата останнього оновлення етапу проєкту"
+
+#. module: project_stage_last_update_date
+#: model:ir.model.fields,field_description:project_stage_last_update_date.field_project_project__stage_last_update_date
+msgid "Stage Last Update Date"
+msgstr "Дата останнього оновлення етапу"

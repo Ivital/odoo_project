@@ -231,3 +231,15 @@ msgstr "Тижні"
 #: model:ir.model.fields.selection,name:sale_project_task_recurrency.selection__product_template__task_repeat_unit__year
 msgid "Years"
 msgstr "Роки"
+
+#. module: sale_project_task_recurrency
+#: model:ir.model.fields,help:sale_project_task_recurrency.field_product_product__task_force_month_quarter
+#: model:ir.model.fields,help:sale_project_task_recurrency.field_product_template__task_force_month_quarter
+msgid "Force the month to be used inside the quarter"
+msgstr "Примусово використовувати місяць усередині кварталу"
+
+#. module: sale_project_task_recurrency
+#: model:ir.model.fields,help:sale_project_task_recurrency.field_product_product__task_force_month_semester
+#: model:ir.model.fields,help:sale_project_task_recurrency.field_product_template__task_force_month_semester
+msgid "Force the month to be used inside the semester"
+msgstr "Примусово використовувати місяць усередині півріччя"

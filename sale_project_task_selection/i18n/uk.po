@@ -22,3 +22,13 @@ msgstr "Проєкт"
 #: model_terms:ir.ui.view,arch_db:sale_project_task_selection.sale_order_form
 msgid "Task"
 msgstr "Завдання"
+
+#. module: sale_project_task_selection
+#: model:ir.model.fields,field_description:sale_project_task_selection.field_sale_order__has_project_service_tracking_lines
+msgid "Has Project Service Tracking Lines"
+msgstr "Має рядки відстеження послуги проєкту"
+
+#. module: sale_project_task_selection
+#: model:ir.model.fields,field_description:sale_project_task_selection.field_sale_order_line__is_project_service_tracking_line
+msgid "Is Project Service Tracking Line"
+msgstr "Є рядком відстеження послуги проєкту"

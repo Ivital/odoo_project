@@ -22,3 +22,58 @@ msgstr "Автоскасування"
 #: model_terms:ir.ui.view,arch_db:project_task_stage_auto_state.project_task_type_form_view_inherit
 msgid "Auto-Done"
 msgstr "Автовиконання"
+
+#. module: project_task_stage_auto_state
+#: model:ir.model.fields,field_description:project_task_stage_auto_state.field_project_task_type__allow_cancel_from_approved
+msgid "Allow Cancel from Approved"
+msgstr "Дозволити скасування зі стану «Схвалено»"
+
+#. module: project_task_stage_auto_state
+#: model:ir.model.fields,field_description:project_task_stage_auto_state.field_project_task_type__allow_cancel_from_changes_requested
+msgid "Allow Cancel from Changes Requested"
+msgstr "Дозволити скасування зі стану «Запитано зміни»"
+
+#. module: project_task_stage_auto_state
+#: model:ir.model.fields,field_description:project_task_stage_auto_state.field_project_task_type__allow_cancel_from_in_progress
+msgid "Allow Cancel from In Progress"
+msgstr "Дозволити скасування зі стану «В процесі»"
+
+#. module: project_task_stage_auto_state
+#: model:ir.model.fields,field_description:project_task_stage_auto_state.field_project_task_type__allow_cancel_from_waiting
+msgid "Allow Cancel from Waiting"
+msgstr "Дозволити скасування зі стану «Очікування»"
+
+#. module: project_task_stage_auto_state
+#: model:ir.model.fields,field_description:project_task_stage_auto_state.field_project_task_type__allow_done_from_approved
+msgid "Allow Done from Approved"
+msgstr "Дозволити «Виконано» зі стану «Схвалено»"
+
+#. module: project_task_stage_auto_state
+#: model:ir.model.fields,field_description:project_task_stage_auto_state.field_project_task_type__allow_done_from_changes_requested
+msgid "Allow Done from Changes Requested"
+msgstr "Дозволити «Виконано» зі стану «Запитані зміни»"
+
+#. module: project_task_stage_auto_state
+#: model:ir.model.fields,field_description:project_task_stage_auto_state.field_project_task_type__allow_done_from_in_progress
+msgid "Allow Done from In Progress"
+msgstr "Дозволити «Виконано» зі стану «В процесі»"
+
+#. module: project_task_stage_auto_state
+#: model:ir.model.fields,field_description:project_task_stage_auto_state.field_project_task_type__allow_done_from_waiting
+msgid "Allow Done from Waiting"
+msgstr "Дозволити «Виконано» зі стану «Очікування»"
+
+#. module: project_task_stage_auto_state
+#: model:ir.model.fields,field_description:project_task_stage_auto_state.field_project_task_type__auto_cancel_days
+msgid "Auto-cancel after days"
+msgstr "Автоскасування через днів"
+
+#. module: project_task_stage_auto_state
+#: model:ir.model.fields,field_description:project_task_stage_auto_state.field_project_task_type__auto_done_days
+msgid "Auto-mark as done after days"
+msgstr "Автоматично позначати виконаним через днів"
+
+#. module: project_task_stage_auto_state
+#: model:ir.actions.server,name:project_task_stage_auto_state.ir_cron_auto_change_task_state_ir_actions_server
+msgid "Project: Auto-change task state by stage"
+msgstr "Проєкт: автоматично змінювати стан завдання за етапом"

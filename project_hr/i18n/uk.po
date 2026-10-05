@@ -33,3 +33,8 @@ msgstr "Категорії HR"
 #: model:ir.model.fields,field_description:project_hr.field_project_task__employee_ids
 msgid "Linked employees"
 msgstr "Пов’язані працівники"
+
+#. module: project_hr
+#: model:ir.model.fields,field_description:project_hr.field_project_task__domain_hr_category_ids
+msgid "Domain Hr Category"
+msgstr "Домен категорії HR"

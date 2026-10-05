@@ -58,3 +58,28 @@ msgstr "Оновлення"
 #: model_terms:ir.ui.view,arch_db:project_update_portal.portal_my_project_updates
 msgid "Updates for"
 msgstr "Оновлення для"
+
+#. module: project_update_portal
+#: model_terms:ir.ui.view,arch_db:project_update_portal.portal_my_project_updates_link
+msgid "<i class=\"fa fa-list\"/> View Updates"
+msgstr "<i class=\"fa fa-list\"/> Переглянути оновлення"
+
+#. module: project_update_portal
+#: model_terms:ir.ui.view,arch_db:project_update_portal.portal_my_project_update
+msgid "<strong>Author:</strong>"
+msgstr "<strong>Автор:</strong>"
+
+#. module: project_update_portal
+#: model_terms:ir.ui.view,arch_db:project_update_portal.portal_my_project_update
+msgid "<strong>Progress:</strong>"
+msgstr "<strong>Прогрес:</strong>"
+
+#. module: project_update_portal
+#: model:ir.model.fields,help:project_update_portal.field_project_update__access_url
+msgid "Customer Portal URL"
+msgstr "URL порталу клієнта"
+
+#. module: project_update_portal
+#: model_terms:ir.ui.view,arch_db:project_update_portal.portal_my_project_updates
+msgid "There are no updates for this project."
+msgstr "Для цього проєкту немає оновлень."

@@ -85,3 +85,77 @@ msgstr "Тижні"
 #: model:ir.model.fields.selection,name:project_crm_postsale_automation.selection__project_project__postsale_rule__years
 msgid "Years"
 msgstr "Роки"
+
+#. module: project_crm_postsale_automation
+#: model:ir.model.fields,field_description:project_crm_postsale_automation.field_project_project__postsale_active
+msgid "Activate Post-sale"
+msgstr "Активувати післяпродажне обслуговування"
+
+#. module: project_crm_postsale_automation
+#: model_terms:ir.ui.view,arch_db:project_crm_postsale_automation.view_project_postsale_form
+msgid ""
+"Describe instructions, terms or SLA targets to map directly onto the "
+"description of generated Leads..."
+msgstr ""
+"Опишіть інструкції, умови або цілі SLA, які безпосередньо потраплятимуть в "
+"опис створених лідів..."
+
+#. module: project_crm_postsale_automation
+#: model:ir.model.fields,field_description:project_crm_postsale_automation.field_project_project__postsale_generate_tags
+msgid "Generate CRM Tags"
+msgstr "Створити теги CRM"
+
+#. module: project_crm_postsale_automation
+#: model_terms:ir.ui.view,arch_db:project_crm_postsale_automation.view_project_postsale_form
+msgid "Generate Next Opportunity"
+msgstr "Створити наступну нагоду"
+
+#. module: project_crm_postsale_automation
+#: model:ir.model.fields,field_description:project_crm_postsale_automation.field_crm_lead__is_postsale
+msgid "Is a Post-sale Lead"
+msgstr "Є післяпродажним лідом"
+
+#. module: project_crm_postsale_automation
+#: model:ir.model.fields,field_description:project_crm_postsale_automation.field_project_project__postsale_last_date
+msgid "Last Generation Date"
+msgstr "Дата останнього створення"
+
+#. module: project_crm_postsale_automation
+#: model:ir.model.fields,field_description:project_crm_postsale_automation.field_project_project__postsale_next_executions
+msgid "Next Executions Preview"
+msgstr "Попередній перегляд наступних запусків"
+
+#. module: project_crm_postsale_automation
+#: model:ir.model.fields,field_description:project_crm_postsale_automation.field_project_project__postsale_next_date
+msgid "Next Generation Date"
+msgstr "Дата наступного створення"
+
+#. module: project_crm_postsale_automation
+#: model:ir.model.fields,field_description:project_crm_postsale_automation.field_project_project__postsale_partner_id
+msgid "Post-sale Customer"
+msgstr "Післяпродажний клієнт"
+
+#. module: project_crm_postsale_automation
+#: model:ir.model.fields,field_description:project_crm_postsale_automation.field_crm_lead__postsale_cycle_date
+msgid "Post-sale Cycle Date"
+msgstr "Дата післяпродажного циклу"
+
+#. module: project_crm_postsale_automation
+#: model:ir.model.fields,field_description:project_crm_postsale_automation.field_project_project__postsale_user_id
+msgid "Post-sale Responsible"
+msgstr "Відповідальний після продажу"
+
+#. module: project_crm_postsale_automation
+#: model_terms:ir.ui.view,arch_db:project_crm_postsale_automation.view_project_postsale_form
+msgid "Post-sale Tracking"
+msgstr "Відстеження після продажу"
+
+#. module: project_crm_postsale_automation
+#: model:ir.actions.server,name:project_crm_postsale_automation.ir_cron_generate_postsale_opportunities_ir_actions_server
+msgid "Project: Generate Post-sale Opportunities"
+msgstr "Проєкт: створити післяпродажні нагоди"
+
+#. module: project_crm_postsale_automation
+#: model_terms:ir.ui.view,arch_db:project_crm_postsale_automation.view_project_postsale_form
+msgid "Status & Forecasting"
+msgstr "Статус і прогнозування"

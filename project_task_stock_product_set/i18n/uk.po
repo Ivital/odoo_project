@@ -73,3 +73,8 @@ msgstr "Останнє оновлення"
 #: model:ir.model.fields,field_description:project_task_stock_product_set.field_project_task_stock_product_set_wizard__product_set_line_ids
 msgid "Product set lines"
 msgstr "Рядки набору товарів"
+
+#. module: project_task_stock_product_set
+#: model:ir.actions.act_window,name:project_task_stock_product_set.act_open_wizard_product_set_add_from_task
+msgid "Add a set in a project task"
+msgstr "Додати набір у завдання проєкту"

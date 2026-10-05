@@ -36,3 +36,8 @@ msgstr "Разом"
 #: model:ir.model.fields,field_description:sale_project_reimbursement_cost.field_product_template__provision_product_id
 msgid "Provision Product"
 msgstr "Товар забезпечення"
+
+#. module: sale_project_reimbursement_cost
+#: model:ir.actions.act_window,name:sale_project_reimbursement_cost.sol_reimbursement_cost_action
+msgid "Reimbursement cost"
+msgstr "Вартість відшкодування"

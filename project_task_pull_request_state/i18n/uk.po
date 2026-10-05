@@ -34,3 +34,16 @@ msgstr "Типовий стан PR"
 #: model_terms:ir.ui.view,arch_db:project_task_pull_request_state.view_task_search_form
 msgid "Has PR"
 msgstr "Має PR"
+
+#. module: project_task_pull_request_state
+#: model_terms:ir.ui.view,arch_db:project_task_pull_request_state.res_config_settings_view_form
+msgid ""
+"Default PR state. Used in case default PR state is not defined in project"
+msgstr ""
+"Стандартний стан PR. Використовується, якщо стандартний стан PR не визначено"
+" в проєкті"
+
+#. module: project_task_pull_request_state
+#: model_terms:ir.ui.view,arch_db:project_task_pull_request_state.res_config_settings_view_form
+msgid "Project Task Pull Request"
+msgstr "Pull request завдання проєкту"

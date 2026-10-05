@@ -46,3 +46,13 @@ msgstr "Замовлення на закупівлю"
 #: model_terms:ir.ui.view,arch_db:project_purchase_link.project_project_view_form
 msgid "Purchase Total"
 msgstr "Разом закупівель"
+
+#. module: project_purchase_link
+#: model:ir.model.fields,field_description:project_purchase_link.field_project_project__purchase_invoice_count
+msgid "# Purchase Invoice"
+msgstr "Кількість рахунків закупівлі"
+
+#. module: project_purchase_link
+#: model_terms:ir.ui.view,arch_db:project_purchase_link.project_project_view_form
+msgid "Purchase Invoices"
+msgstr "Рахунки закупівель"

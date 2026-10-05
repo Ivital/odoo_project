@@ -22,3 +22,8 @@ msgstr "URL порталу"
 #: model_terms:ir.ui.view,arch_db:project_task_code_portal.project_sharing_project_task_view_search
 msgid "Task Code"
 msgstr "Код завдання"
+
+#. module: project_task_code_portal
+#: model:ir.model.fields,field_description:project_task_code_portal.field_project_task__portal_url_visible
+msgid "Portal Url Visible"
+msgstr "URL порталу видимий"

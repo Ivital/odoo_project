@@ -87,3 +87,18 @@ msgstr "Зацікавлена сторона в проєктах"
 #: model:ir.model.fields,field_description:project_stakeholder.field_project_project__stakeholder_ids
 msgid "Stakeholders"
 msgstr "Зацікавлені сторони"
+
+#. module: project_stakeholder
+#: model_terms:ir.actions.act_window,help:project_stakeholder.action_project_stakeholder_role
+msgid "Create a Stakeholder Role"
+msgstr "Створити роль зацікавленої сторони"
+
+#. module: project_stakeholder
+#: model_terms:ir.actions.act_window,help:project_stakeholder.action_project_stakeholder_role
+msgid "Manage Project Stakeholder Roles."
+msgstr "Керувати ролями зацікавлених сторін проєкту."
+
+#. module: project_stakeholder
+#: model_terms:ir.ui.view,arch_db:project_stakeholder.edit_project
+msgid "Project Stakeholders"
+msgstr "Зацікавлені сторони проєкту"

@@ -62,3 +62,32 @@ msgstr "Нова назва завдання"
 #: model:ir.model.fields,field_description:project_merge.field_project_task_merge__task_ids
 msgid "Tasks to Merge"
 msgstr "Завдання для об’єднання"
+
+#. module: project_merge
+#: model_terms:ir.ui.view,arch_db:project_merge.project_task_merge_view_form
+msgid ""
+"<span class=\"text-muted\">NB: This will archive the selected tasks (Except the destination task)\n"
+"                    </span>"
+msgstr ""
+"<span class=\"text-muted\">Примітка: це архівує вибрані завдання (крім цільового завдання)\n"
+"                    </span>"
+
+#. module: project_merge
+#: model:ir.model.fields,field_description:project_merge.field_project_task_merge__create_new_task
+msgid "Create a new task"
+msgstr "Створити нове завдання"
+
+#. module: project_merge
+#: model:ir.model.fields,field_description:project_merge.field_project_task_merge__dst_project_id
+msgid "Destination Project"
+msgstr "Проєкт призначення"
+
+#. module: project_merge
+#: model:ir.actions.act_window,name:project_merge.action_project_task_merge
+msgid "Merge Project Tasks"
+msgstr "Об’єднати завдання проєкту"
+
+#. module: project_merge
+#: model:ir.model.fields,field_description:project_merge.field_project_task_merge__dst_task_id
+msgid "Merge into an existing task"
+msgstr "Об’єднати з наявним завданням"

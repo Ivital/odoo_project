@@ -225,3 +225,75 @@ msgstr "Значення, задані тут, є специфічними дл�
 #: model:ir.model.fields,field_description:project_role.field_project_assignment__website_message_ids
 msgid "Website Messages"
 msgstr "Повідомлення вебсайту"
+
+#. module: project_role
+#: model_terms:ir.ui.view,arch_db:project_role.res_config_settings_view_form
+msgid "<span class=\"o_form_label\">Project Roles</span>"
+msgstr "<span class=\"o_form_label\">Ролі проєкту</span>"
+
+#. module: project_role
+#: model_terms:ir.ui.view,arch_db:project_role.res_config_settings_view_form
+msgid "Check to configure projects to inherit company assignments by default."
+msgstr ""
+"Установіть, щоб проєкти за замовчуванням успадковували призначення компанії."
+
+#. module: project_role
+#: model_terms:ir.ui.view,arch_db:project_role.res_config_settings_view_form
+msgid "Check to configure projects to limit role to assignments by default."
+msgstr ""
+"Установіть, щоб за замовчуванням обмежувати ролі в проєктах призначеннями."
+
+#. module: project_role
+#: model_terms:ir.ui.view,arch_db:project_role.res_config_settings_view_form
+msgid "Configure set of roles, available on projects."
+msgstr "Налаштувати набір ролей, доступних у проєктах."
+
+#. module: project_role
+#: model:ir.model.fields,help:project_role.field_project_assignment__message_needaction
+msgid "If checked, new messages require your attention."
+msgstr "Якщо позначено, нові повідомлення потребують вашої уваги."
+
+#. module: project_role
+#: model:ir.model.fields,help:project_role.field_project_assignment__message_has_error
+msgid "If checked, some messages have a delivery error."
+msgstr "Якщо позначено, деякі повідомлення мають помилку доставки."
+
+#. module: project_role
+#: model:ir.model.fields,field_description:project_role.field_project_project__inherit_assignments
+msgid "Inherit Assignments"
+msgstr "Успадковувати призначення"
+
+#. module: project_role
+#: model:ir.model.fields,field_description:project_role.field_project_project__limit_role_to_assignments
+msgid "Limit Role To Assignments"
+msgstr "Обмежити роль призначеннями"
+
+#. module: project_role
+#: model:ir.model.fields,help:project_role.field_project_assignment__message_needaction_counter
+msgid "Number of messages requiring action"
+msgstr "Кількість повідомлень, що потребують дії"
+
+#. module: project_role
+#: model:ir.model.fields,help:project_role.field_project_assignment__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr "Кількість повідомлень із помилкою доставки"
+
+#. module: project_role
+#: model_terms:ir.ui.view,arch_db:project_role.res_config_settings_view_form
+msgid "Projects inherit Company assignments"
+msgstr "Проєкти успадковують призначення компанії"
+
+#. module: project_role
+#: model_terms:ir.ui.view,arch_db:project_role.res_config_settings_view_form
+msgid "Roles &amp; Assignments"
+msgstr "Ролі та призначення"
+
+#. module: project_role
+#: model_terms:ir.ui.view,arch_db:project_role.res_config_settings_view_form
+msgid "Setup project roles"
+msgstr "Налаштувати ролі проєкту"
+
+#. module: project_role
+#: model:ir.model.fields,help:project_role.field_project_assignment__website_message_ids
+msgid "Website communication history"
+msgstr "Історія комунікації через вебсайт"
