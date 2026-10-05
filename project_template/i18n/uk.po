@@ -9,6 +9,17 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
 #. module: project_template
-#: model:ir.module.module,shortdesc:base.module_project_template model:ir.module.module,summary:base.module_project_template
+#: model:ir.module.module,shortdesc:base.module_project_template
+#: model:ir.module.module,summary:base.module_project_template
 msgid "Project Templates"
 msgstr "Шаблони проєктів"
+
+#. module: project_template
+#: model:ir.model.fields,field_description:project_template.field_project_project__is_template
+msgid "Is Template"
+msgstr "Є шаблоном"
+
+#. module: project_template
+#: model_terms:ir.ui.view,arch_db:project_template.project_template_view_inherit_search
+msgid "Templates"
+msgstr "Шаблони"

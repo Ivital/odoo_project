@@ -12,3 +12,65 @@ msgstr ""
 #: model:ir.module.module,shortdesc:base.module_project_status
 msgid "Project Status"
 msgstr "Статус проєкту"
+
+#. module: project_status
+#: model_terms:ir.ui.view,arch_db:project_status.view_project_project_filter
+msgid "Closed"
+msgstr "Закрито"
+
+#. module: project_status
+#: model:ir.model.fields,field_description:project_status.field_project_status__company_id
+msgid "Company"
+msgstr "Компанія"
+
+#. module: project_status
+#: model:ir.model.fields,field_description:project_status.field_project_status__create_uid
+msgid "Created by"
+msgstr "Створив"
+
+#. module: project_status
+#: model:ir.model.fields,field_description:project_status.field_project_status__create_date
+msgid "Created on"
+msgstr "Створено"
+
+#. module: project_status
+#: model:ir.model.fields,field_description:project_status.field_project_status__description
+msgid "Description"
+msgstr "Опис"
+
+#. module: project_status
+#: model:ir.model.fields,field_description:project_status.field_project_status__display_name
+msgid "Display Name"
+msgstr "Відображувана назва"
+
+#. module: project_status
+#: model:ir.model.fields,field_description:project_status.field_project_status__fold
+msgid "Folded"
+msgstr "Згорнуто"
+
+#. module: project_status
+#: model:ir.model.fields,field_description:project_status.field_project_status__name
+msgid "Name"
+msgstr "Назва"
+
+#. module: project_status
+#: model:project.status,name:project_status.project_status_pending
+msgid "Pending"
+msgstr "Очікують"
+
+#. module: project_status
+#: model:ir.actions.act_window,name:project_status.project_status_action
+#: model:ir.ui.menu,name:project_status.project_status_menu
+msgid "Project Statuses"
+msgstr "Статуси проєкту"
+
+#. module: project_status
+#: model:ir.model.fields,field_description:project_status.field_project_status__status_sequence
+msgid "Sequence"
+msgstr "Послідовність"
+
+#. module: project_status
+#: model_terms:ir.ui.view,arch_db:project_status.project_project_view_form_simplified
+#: model_terms:ir.ui.view,arch_db:project_status.view_project_project_filter
+msgid "Status"
+msgstr "Статус"

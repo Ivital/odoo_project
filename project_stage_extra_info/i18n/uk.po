@@ -12,3 +12,13 @@ msgstr ""
 #: model:ir.module.module,shortdesc:base.module_project_stage_extra_info
 msgid "Project Stage Extra Info"
 msgstr "Додаткова інформація про етап проєкту"
+
+#. module: project_stage_extra_info
+#: model_terms:ir.ui.view,arch_db:project_stage_extra_info.view_project_project_filter
+msgid "Closed"
+msgstr "Закрито"
+
+#. module: project_stage_extra_info
+#: model:ir.model.fields,field_description:project_stage_extra_info.field_project_project_stage__description
+msgid "Description"
+msgstr "Опис"

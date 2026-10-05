@@ -1,0 +1,53 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 18.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2026-10-05 05:39+0000\n"
+"Last-Translator: Ivital <Ivital@users.noreply.github.com>\n"
+"Language-Team: Ukrainian\n"
+"Language: uk_UA\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#. module: project_stakeholder
+#: model:ir.model.fields,field_description:project_stakeholder.field_project_stakeholder__create_uid
+#: model:ir.model.fields,field_description:project_stakeholder.field_project_stakeholder_role__create_uid
+msgid "Created by"
+msgstr "Створив"
+
+#. module: project_stakeholder
+#: model:ir.model.fields,field_description:project_stakeholder.field_project_stakeholder__create_date
+#: model:ir.model.fields,field_description:project_stakeholder.field_project_stakeholder_role__create_date
+msgid "Created on"
+msgstr "Створено"
+
+#. module: project_stakeholder
+#: model:ir.model.fields,field_description:project_stakeholder.field_project_stakeholder__display_name
+#: model:ir.model.fields,field_description:project_stakeholder.field_project_stakeholder_role__display_name
+msgid "Display Name"
+msgstr "Відображувана назва"
+
+#. module: project_stakeholder
+#: model:ir.model.fields,field_description:project_stakeholder.field_project_stakeholder__note
+msgid "Note"
+msgstr "Нотатка"
+
+#. module: project_stakeholder
+#: model:ir.model,name:project_stakeholder.model_project_project
+#: model:ir.model.fields,field_description:project_stakeholder.field_project_stakeholder__project_id
+msgid "Project"
+msgstr "Проєкт"
+
+#. module: project_stakeholder
+#: model:ir.model.fields,field_description:project_stakeholder.field_project_stakeholder__partner_id
+msgid "Stakeholder"
+msgstr "Зацікавлена сторона"
+
+#. module: project_stakeholder
+#: model:ir.ui.menu,name:project_stakeholder.menu_project_stakeholder_role
+msgid "Stakeholder Roles"
+msgstr "Ролі зацікавлених сторін"

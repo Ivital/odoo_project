@@ -1,0 +1,50 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 18.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2026-10-05 05:39+0000\n"
+"Last-Translator: Ivital <Ivital@users.noreply.github.com>\n"
+"Language-Team: Ukrainian\n"
+"Language: uk_UA\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#. module: project_crm_postsale_automation
+#: model_terms:ir.ui.view,arch_db:project_crm_postsale_automation.view_project_postsale_form
+msgid "Configuration"
+msgstr "Конфігурація"
+
+#. module: project_crm_postsale_automation
+#: model:ir.model.fields,field_description:project_crm_postsale_automation.field_project_project__postsale_day_of_month
+msgid "Day of Month"
+msgstr "День місяця"
+
+#. module: project_crm_postsale_automation
+#: model:ir.model.fields.selection,name:project_crm_postsale_automation.selection__project_project__postsale_rule__days
+msgid "Days"
+msgstr "Дні"
+
+#. module: project_crm_postsale_automation
+#: model:ir.model.fields,field_description:project_crm_postsale_automation.field_project_project__postsale_interval
+msgid "Interval"
+msgstr "Інтервал"
+
+#. module: project_crm_postsale_automation
+#: model:ir.model.fields.selection,name:project_crm_postsale_automation.selection__project_project__postsale_rule__months
+msgid "Months"
+msgstr "Місяці"
+
+#. module: project_crm_postsale_automation
+#: model:ir.model,name:project_crm_postsale_automation.model_project_project
+#: model:ir.model.fields,field_description:project_crm_postsale_automation.field_crm_lead__project_id
+msgid "Project"
+msgstr "Проєкт"
+
+#. module: project_crm_postsale_automation
+#: model:ir.model.fields,field_description:project_crm_postsale_automation.field_project_project__postsale_rule
+msgid "Unit"
+msgstr "Одиниця"

@@ -9,6 +9,208 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
 #. module: project_forecast_line
-#: model:ir.module.module,shortdesc:base.module_project_forecast_line model:ir.module.module,summary:base.module_project_forecast_line
+#: model:ir.module.module,shortdesc:base.module_project_forecast_line
+#: model:ir.module.module,summary:base.module_project_forecast_line
 msgid "Project Forecast Lines"
 msgstr "Рядки прогнозу проєкту"
+
+#. module: project_forecast_line
+#: model:ir.model.fields,field_description:project_forecast_line.field_forecast_line__company_id
+#: model:ir.model.fields,field_description:project_forecast_line.field_hr_employee_forecast_role__company_id
+msgid "Company"
+msgstr "Компанія"
+
+#. module: project_forecast_line
+#: model:ir.ui.menu,name:project_forecast_line.menu_forecast_config
+msgid "Configuration"
+msgstr "Конфігурація"
+
+#. module: project_forecast_line
+#: model:ir.model.fields.selection,name:project_forecast_line.selection__forecast_line__type__confirmed
+#: model:ir.model.fields.selection,name:project_forecast_line.selection__project_project_stage__forecast_line_type__confirmed
+#: model_terms:ir.ui.view,arch_db:project_forecast_line.view_forecast_line_search
+msgid "Confirmed"
+msgstr "Підтверджено"
+
+#. module: project_forecast_line
+#: model:ir.model.fields,field_description:project_forecast_line.field_forecast_line__cost
+msgid "Cost"
+msgstr "Вартість"
+
+#. module: project_forecast_line
+#: model:ir.model.fields,field_description:project_forecast_line.field_forecast_line__create_uid
+#: model:ir.model.fields,field_description:project_forecast_line.field_forecast_line_mixin__create_uid
+#: model:ir.model.fields,field_description:project_forecast_line.field_forecast_role__create_uid
+#: model:ir.model.fields,field_description:project_forecast_line.field_hr_employee_forecast_role__create_uid
+#: model:ir.model.fields,field_description:project_forecast_line.field_hr_leave__create_uid
+#: model:ir.model.fields,field_description:project_forecast_line.field_project_task__create_uid
+#: model:ir.model.fields,field_description:project_forecast_line.field_resource_calendar_leaves__create_uid
+#: model:ir.model.fields,field_description:project_forecast_line.field_sale_order_line__create_uid
+msgid "Created by"
+msgstr "Створив"
+
+#. module: project_forecast_line
+#: model:ir.model.fields,field_description:project_forecast_line.field_forecast_line__create_date
+#: model:ir.model.fields,field_description:project_forecast_line.field_forecast_line_mixin__create_date
+#: model:ir.model.fields,field_description:project_forecast_line.field_forecast_role__create_date
+#: model:ir.model.fields,field_description:project_forecast_line.field_hr_employee_forecast_role__create_date
+#: model:ir.model.fields,field_description:project_forecast_line.field_hr_leave__create_date
+#: model:ir.model.fields,field_description:project_forecast_line.field_resource_calendar_leaves__create_date
+#: model:ir.model.fields,field_description:project_forecast_line.field_sale_order_line__create_date
+msgid "Created on"
+msgstr "Створено"
+
+#. module: project_forecast_line
+#: model:ir.model.fields,field_description:project_forecast_line.field_forecast_line__currency_id
+msgid "Currency"
+msgstr "Валюта"
+
+#. module: project_forecast_line
+#: model:ir.model.fields,field_description:project_forecast_line.field_hr_employee_forecast_role__date_end
+msgid "Date End"
+msgstr "Дата завершення"
+
+#. module: project_forecast_line
+#: model:ir.model.fields,field_description:project_forecast_line.field_forecast_line__date_from
+msgid "Date From"
+msgstr "Дата від"
+
+#. module: project_forecast_line
+#: model:ir.model.fields,field_description:project_forecast_line.field_hr_employee_forecast_role__date_start
+msgid "Date Start"
+msgstr "Дата початку"
+
+#. module: project_forecast_line
+#: model:ir.model.fields,field_description:project_forecast_line.field_forecast_line__date_to
+msgid "Date To"
+msgstr "Дата до"
+
+#. module: project_forecast_line
+#: model:ir.model.fields.selection,name:project_forecast_line.selection__res_company__forecast_line_granularity__day
+msgid "Day"
+msgstr "День"
+
+#. module: project_forecast_line
+#: model:ir.model.fields,field_description:project_forecast_line.field_forecast_role__description
+msgid "Description"
+msgstr "Опис"
+
+#. module: project_forecast_line
+#: model:ir.model.fields,field_description:project_forecast_line.field_forecast_line__display_name
+#: model:ir.model.fields,field_description:project_forecast_line.field_forecast_line_mixin__display_name
+#: model:ir.model.fields,field_description:project_forecast_line.field_forecast_role__display_name
+#: model:ir.model.fields,field_description:project_forecast_line.field_hr_employee_forecast_role__display_name
+#: model:ir.model.fields,field_description:project_forecast_line.field_hr_leave__display_name
+#: model:ir.model.fields,field_description:project_forecast_line.field_project_task__display_name
+#: model:ir.model.fields,field_description:project_forecast_line.field_resource_calendar_leaves__display_name
+#: model:ir.model.fields,field_description:project_forecast_line.field_sale_order_line__display_name
+msgid "Display Name"
+msgstr "Відображувана назва"
+
+#. module: project_forecast_line
+#: model:ir.model,name:project_forecast_line.model_hr_employee
+#: model:ir.model.fields,field_description:project_forecast_line.field_forecast_line__employee_id
+#: model:ir.model.fields,field_description:project_forecast_line.field_hr_employee_forecast_role__employee_id
+#: model_terms:ir.ui.view,arch_db:project_forecast_line.view_forecast_line_search
+msgid "Employee"
+msgstr "Працівник"
+
+#. module: project_forecast_line
+#: model:ir.actions.act_window,name:project_forecast_line.action_forecast_lines
+#: model:ir.model,name:project_forecast_line.model_forecast_line
+#: model:ir.model.fields,field_description:project_forecast_line.field_forecast_line__forecast_hours
+#: model:ir.model.fields.selection,name:project_forecast_line.selection__forecast_line__type__forecast
+#: model:ir.model.fields.selection,name:project_forecast_line.selection__project_project_stage__forecast_line_type__forecast
+#: model:ir.ui.menu,name:project_forecast_line.forecast_menu_root
+#: model:ir.ui.menu,name:project_forecast_line.menu_forecast_line_consolidated
+#: model_terms:ir.ui.view,arch_db:project_forecast_line.res_config_settings_view_form
+#: model_terms:ir.ui.view,arch_db:project_forecast_line.view_forecast_line_search
+msgid "Forecast"
+msgstr "Прогноз"
+
+#. module: project_forecast_line
+#: model:ir.actions.act_window,name:project_forecast_line.action_forecast_roles
+#: model:ir.ui.menu,name:project_forecast_line.menu_forecast_role
+#: model_terms:ir.ui.view,arch_db:project_forecast_line.view_employee_form
+msgid "Forecast Roles"
+msgstr "Ролі прогнозу"
+
+#. module: project_forecast_line
+#. odoo-python
+#: code:addons/project_forecast_line/models/hr_leave.py:0
+#: model:ir.model.fields,field_description:project_forecast_line.field_forecast_line__hr_leave_id
+msgid "Leave"
+msgstr "Відпустка"
+
+#. module: project_forecast_line
+#: model:ir.model.fields,field_description:project_forecast_line.field_hr_employee__main_role_id
+msgid "Main Role"
+msgstr "Основна роль"
+
+#. module: project_forecast_line
+#: model:ir.model.fields,field_description:project_forecast_line.field_forecast_line__res_model
+#: model_terms:ir.ui.view,arch_db:project_forecast_line.view_forecast_line_search
+msgid "Model"
+msgstr "Модель"
+
+#. module: project_forecast_line
+#: model:ir.model.fields,field_description:project_forecast_line.field_forecast_line__name
+#: model:ir.model.fields,field_description:project_forecast_line.field_forecast_role__name
+msgid "Name"
+msgstr "Назва"
+
+#. module: project_forecast_line
+#: model:ir.model.fields,field_description:project_forecast_line.field_forecast_line__project_id
+#: model_terms:ir.ui.view,arch_db:project_forecast_line.view_forecast_line_search
+msgid "Project"
+msgstr "Проєкт"
+
+#. module: project_forecast_line
+#: model:ir.model.fields,field_description:project_forecast_line.field_hr_employee_forecast_role__rate
+msgid "Rate"
+msgstr "Ставка"
+
+#. module: project_forecast_line
+#: model:ir.model.fields,field_description:project_forecast_line.field_forecast_line__res_id
+msgid "Record ID"
+msgstr "ID запису"
+
+#. module: project_forecast_line
+#: model:ir.model.fields,field_description:project_forecast_line.field_hr_employee__role_ids
+#: model:ir.model.fields,field_description:project_forecast_line.field_hr_employee_forecast_role__role_id
+#: model:ir.model.fields,field_description:project_forecast_line.field_hr_job__role_id
+#: model_terms:ir.ui.view,arch_db:project_forecast_line.view_forecast_line_search
+msgid "Role"
+msgstr "Роль"
+
+#. module: project_forecast_line
+#: model:ir.model.fields,field_description:project_forecast_line.field_forecast_line__sale_id
+msgid "Sale"
+msgstr "Продаж"
+
+#. module: project_forecast_line
+#: model:ir.model.fields,field_description:project_forecast_line.field_forecast_line__sale_line_id
+msgid "Sale line"
+msgstr "Рядок продажу"
+
+#. module: project_forecast_line
+#: model:ir.model.fields,field_description:project_forecast_line.field_hr_employee_forecast_role__sequence
+msgid "Sequence"
+msgstr "Послідовність"
+
+#. module: project_forecast_line
+#: model:ir.actions.act_window,name:project_forecast_line.forecast_config_settings_action
+#: model:ir.ui.menu,name:project_forecast_line.forecast_config_settings_menu_action
+msgid "Settings"
+msgstr "Налаштування"
+
+#. module: project_forecast_line
+#: model:ir.model,name:project_forecast_line.model_project_task
+#: model:ir.model.fields,field_description:project_forecast_line.field_forecast_line__task_id
+msgid "Task"
+msgstr "Завдання"
+
+#. module: project_forecast_line
+#: model:ir.model.fields,field_description:project_forecast_line.field_forecast_line__type
+msgid "Type"
+msgstr "Тип"
