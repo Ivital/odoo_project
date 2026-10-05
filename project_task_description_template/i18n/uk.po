@@ -53,3 +53,13 @@ msgstr "Назва"
 #: model:ir.ui.menu,name:project_task_description_template.project_task_description_template_menu
 msgid "Task Description Templates"
 msgstr "Шаблони опису завдань"
+
+#. module: project_task_description_template
+#: model:ir.model.fields,field_description:project_task_description_template.field_project_task_description_template__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: project_task_description_template
+#: model:ir.model.fields,field_description:project_task_description_template.field_project_task_description_template__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"

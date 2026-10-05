@@ -17,3 +17,8 @@ msgstr ""
 #: model:ir.model.fields,field_description:project_reviewer.field_project_task__reviewer_ids
 msgid "Reviewers"
 msgstr "Рецензенти"
+
+#. module: project_reviewer
+#: model_terms:ir.ui.view,arch_db:project_reviewer.view_task_search_form
+msgid "My review"
+msgstr "Моя перевірка"

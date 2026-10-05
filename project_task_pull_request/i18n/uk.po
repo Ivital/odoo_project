@@ -22,7 +22,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:project_task_pull_request.field_project_project__pr_required_states
 #: model:ir.model.fields,field_description:project_task_pull_request.field_project_task__pr_required_states
 msgid "PR Required States"
-msgstr ""
+msgstr "Обов'язкові стани PR"
 
 #. module: project_task_pull_request
 #: model:ir.model.fields,field_description:project_task_pull_request.field_project_task__pr_uri

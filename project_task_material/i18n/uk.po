@@ -56,12 +56,12 @@ msgstr "Останнє оновлення"
 #. module: project_task_material
 #: model_terms:ir.ui.view,arch_db:project_task_material.view_project_task_form_material
 msgid "Material"
-msgstr ""
+msgstr "Матеріал"
 
 #. module: project_task_material
 #: model:ir.model.fields,field_description:project_task_material.field_project_task__material_ids
 msgid "Material Used"
-msgstr ""
+msgstr "Використаний матеріал"
 
 #. module: project_task_material
 #: model:ir.model.fields,field_description:project_task_material.field_project_task_material__product_id

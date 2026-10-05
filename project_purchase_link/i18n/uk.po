@@ -28,3 +28,21 @@ msgstr "Рядки замовлень на закупівлю"
 #: model_terms:ir.ui.view,arch_db:project_purchase_link.project_project_view_form
 msgid "Purchases"
 msgstr "Закупівлі"
+
+#. module: project_purchase_link
+#: model:ir.model.fields,field_description:project_purchase_link.field_project_project__purchase_invoice_line_total
+#: model_terms:ir.ui.view,arch_db:project_purchase_link.project_project_view_form
+msgid "Purchase Invoice Total"
+msgstr "Загальна сума рахунку закупівлі"
+
+#. module: project_purchase_link
+#. odoo-python
+#: code:addons/project_purchase_link/models/project_project.py:0
+msgid "Purchase Order"
+msgstr "Замовлення на закупівлю"
+
+#. module: project_purchase_link
+#: model:ir.model.fields,field_description:project_purchase_link.field_project_project__purchase_line_total
+#: model_terms:ir.ui.view,arch_db:project_purchase_link.project_project_view_form
+msgid "Purchase Total"
+msgstr "Разом закупівель"

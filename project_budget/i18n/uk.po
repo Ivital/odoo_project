@@ -36,3 +36,18 @@ msgstr "Керівник"
 #: model:ir.model.fields,field_description:project_budget.field_crossovered_budget__project_id
 msgid "Project"
 msgstr "Проєкт"
+
+#. module: project_budget
+#: model:ir.model.fields,field_description:project_budget.field_project_project__budget_state
+msgid "Budget Status"
+msgstr "Статус бюджету"
+
+#. module: project_budget
+#: model_terms:ir.ui.view,arch_db:project_budget.project_budget_inherit_form
+msgid "Planned Amount"
+msgstr "Запланована сума"
+
+#. module: project_budget
+#: model_terms:ir.ui.view,arch_db:project_budget.project_budget_inherit_form
+msgid "Project Period"
+msgstr "Період проєкту"

@@ -30,3 +30,9 @@ msgstr "Дата"
 #: code:addons/sale_project_reimbursement_cost/static/src/components/project_right_side_panel/project_right_side_panel.xml:0
 msgid "Total"
 msgstr "Разом"
+
+#. module: sale_project_reimbursement_cost
+#: model:ir.model.fields,field_description:sale_project_reimbursement_cost.field_product_product__provision_product_id
+#: model:ir.model.fields,field_description:sale_project_reimbursement_cost.field_product_template__provision_product_id
+msgid "Provision Product"
+msgstr "Товар забезпечення"

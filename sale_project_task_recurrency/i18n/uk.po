@@ -118,3 +118,116 @@ msgstr "Вересень"
 #: model:ir.model.fields.selection,name:sale_project_task_recurrency.selection__product_template__task_repeat_type__until
 msgid "Until"
 msgstr "До"
+
+#. module: sale_project_task_recurrency
+#: model:ir.model.fields.selection,name:sale_project_task_recurrency.selection__product_template__task_start_date_method__current_date
+msgid "Current date"
+msgstr "Поточна дата"
+
+#. module: sale_project_task_recurrency
+#: model:ir.model.fields.selection,name:sale_project_task_recurrency.selection__product_template__task_start_date_method__end_this
+msgid "End of current period"
+msgstr "Кінець поточного періоду"
+
+#. module: sale_project_task_recurrency
+#: model:ir.model.fields.selection,name:sale_project_task_recurrency.selection__product_template__task_start_date_method__end_next
+msgid "End of next period"
+msgstr "Кінець наступного періоду"
+
+#. module: sale_project_task_recurrency
+#: model:ir.model.fields.selection,name:sale_project_task_recurrency.selection__product_template__task_force_month_semester__5
+msgid "Fifth month"
+msgstr "П'ятий місяць"
+
+#. module: sale_project_task_recurrency
+#: model:ir.model.fields.selection,name:sale_project_task_recurrency.selection__product_template__task_force_month_quarter__1
+#: model:ir.model.fields.selection,name:sale_project_task_recurrency.selection__product_template__task_force_month_semester__1
+msgid "First month"
+msgstr "Перший місяць"
+
+#. module: sale_project_task_recurrency
+#: model:ir.model.fields,field_description:sale_project_task_recurrency.field_product_product__task_force_month_quarter
+#: model:ir.model.fields,field_description:sale_project_task_recurrency.field_product_template__task_force_month_quarter
+msgid "Force Month Quarter"
+msgstr "Примусовий місяць кварталу"
+
+#. module: sale_project_task_recurrency
+#: model:ir.model.fields,field_description:sale_project_task_recurrency.field_product_product__task_force_month_semester
+#: model:ir.model.fields,field_description:sale_project_task_recurrency.field_product_template__task_force_month_semester
+msgid "Force Month Semester"
+msgstr "Примусовий місяць півріччя"
+
+#. module: sale_project_task_recurrency
+#: model:ir.model.fields.selection,name:sale_project_task_recurrency.selection__product_template__task_repeat_type__forever
+msgid "Forever"
+msgstr "Назавжди"
+
+#. module: sale_project_task_recurrency
+#: model:ir.model.fields.selection,name:sale_project_task_recurrency.selection__product_template__task_force_month_semester__4
+msgid "Fourth month"
+msgstr "Четвертий місяць"
+
+#. module: sale_project_task_recurrency
+#: model:ir.model.fields,field_description:sale_project_task_recurrency.field_product_product__recurring_task
+#: model:ir.model.fields,field_description:sale_project_task_recurrency.field_product_template__recurring_task
+msgid "Is recurring task?"
+msgstr "Є повторюваним завданням?"
+
+#. module: sale_project_task_recurrency
+#: model:ir.model.fields.selection,name:sale_project_task_recurrency.selection__product_template__task_repeat_unit__quarter
+msgid "Quarters"
+msgstr "Квартали"
+
+#. module: sale_project_task_recurrency
+#: model:ir.model.fields.selection,name:sale_project_task_recurrency.selection__product_template__task_force_month_quarter__2
+#: model:ir.model.fields.selection,name:sale_project_task_recurrency.selection__product_template__task_force_month_semester__2
+msgid "Second month"
+msgstr "Другий місяць"
+
+#. module: sale_project_task_recurrency
+#: model:ir.model.fields.selection,name:sale_project_task_recurrency.selection__product_template__task_repeat_unit__semester
+msgid "Semesters"
+msgstr "Півріччя"
+
+#. module: sale_project_task_recurrency
+#: model:ir.model.fields.selection,name:sale_project_task_recurrency.selection__product_template__task_force_month_semester__6
+msgid "Sixth month"
+msgstr "Шостий місяць"
+
+#. module: sale_project_task_recurrency
+#: model:ir.model.fields,field_description:sale_project_task_recurrency.field_product_product__task_start_date_method
+#: model:ir.model.fields,field_description:sale_project_task_recurrency.field_product_template__task_start_date_method
+msgid "Start Date Method"
+msgstr "Метод визначення дати початку"
+
+#. module: sale_project_task_recurrency
+#: model:ir.model.fields.selection,name:sale_project_task_recurrency.selection__product_template__task_start_date_method__start_this
+msgid "Start of current period"
+msgstr "Початок поточного періоду"
+
+#. module: sale_project_task_recurrency
+#: model:ir.model.fields.selection,name:sale_project_task_recurrency.selection__product_template__task_start_date_method__start_next
+msgid "Start of next period"
+msgstr "Початок наступного періоду"
+
+#. module: sale_project_task_recurrency
+#: model:ir.model.fields,field_description:sale_project_task_recurrency.field_product_product__task_repeat_unit
+#: model:ir.model.fields,field_description:sale_project_task_recurrency.field_product_template__task_repeat_unit
+msgid "Task Repeat Unit"
+msgstr "Одиниця повторення завдання"
+
+#. module: sale_project_task_recurrency
+#: model:ir.model.fields.selection,name:sale_project_task_recurrency.selection__product_template__task_force_month_quarter__3
+#: model:ir.model.fields.selection,name:sale_project_task_recurrency.selection__product_template__task_force_month_semester__3
+msgid "Third month"
+msgstr "Третій місяць"
+
+#. module: sale_project_task_recurrency
+#: model:ir.model.fields.selection,name:sale_project_task_recurrency.selection__product_template__task_repeat_unit__week
+msgid "Weeks"
+msgstr "Тижні"
+
+#. module: sale_project_task_recurrency
+#: model:ir.model.fields.selection,name:sale_project_task_recurrency.selection__product_template__task_repeat_unit__year
+msgid "Years"
+msgstr "Роки"

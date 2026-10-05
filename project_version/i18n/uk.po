@@ -54,3 +54,13 @@ msgstr "Версія проєкту"
 #: model_terms:ir.ui.view,arch_db:project_version.project_task_search
 msgid "Version"
 msgstr "Версія"
+
+#. module: project_version
+#: model:ir.model.fields,field_description:project_version.field_project_version__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: project_version
+#: model:ir.model.fields,field_description:project_version.field_project_version__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"

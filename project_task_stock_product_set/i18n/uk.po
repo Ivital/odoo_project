@@ -47,3 +47,29 @@ msgstr "Кількість"
 #: model:ir.model.fields,field_description:project_task_stock_product_set.field_project_task_stock_product_set_wizard__task_id
 msgid "Task"
 msgstr "Завдання"
+
+#. module: project_task_stock_product_set
+#: model_terms:ir.ui.view,arch_db:project_task_stock_product_set.product_set_add_from_task_form_view
+#: model_terms:ir.ui.view,arch_db:project_task_stock_product_set.view_task_form2
+msgid "Add set"
+msgstr "Додати набір"
+
+#. module: project_task_stock_product_set
+#: model_terms:ir.ui.view,arch_db:project_task_stock_product_set.product_set_add_from_task_form_view
+msgid "Cancel"
+msgstr "Скасувати"
+
+#. module: project_task_stock_product_set
+#: model:ir.model.fields,field_description:project_task_stock_product_set.field_project_task_stock_product_set_wizard__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: project_task_stock_product_set
+#: model:ir.model.fields,field_description:project_task_stock_product_set.field_project_task_stock_product_set_wizard__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: project_task_stock_product_set
+#: model:ir.model.fields,field_description:project_task_stock_product_set.field_project_task_stock_product_set_wizard__product_set_line_ids
+msgid "Product set lines"
+msgstr "Рядки набору товарів"

@@ -71,3 +71,133 @@ msgstr "Стан запасу"
 #: model:ir.model.fields,field_description:project_task_stock.field_stock_scrap__task_id
 msgid "Task"
 msgstr "Завдання"
+
+#. module: project_task_stock
+#: model:ir.model.fields,field_description:project_task_stock.field_project_task__analytic_distribution
+msgid "Analytic Distribution"
+msgstr "Аналітичний розподіл"
+
+#. module: project_task_stock
+#: model:ir.model.fields,field_description:project_task_stock.field_stock_move__analytic_line_ids
+msgid "Analytic Lines"
+msgstr "Аналітичні рядки"
+
+#. module: project_task_stock
+#: model:ir.model.fields,field_description:project_task_stock.field_project_task__analytic_precision
+msgid "Analytic Precision"
+msgstr "Точність аналітики"
+
+#. module: project_task_stock
+#: model:ir.model.fields.selection,name:project_task_stock.selection__project_task__stock_state__assigned
+msgid "Assigned"
+msgstr "Призначено"
+
+#. module: project_task_stock
+#: model:ir.model.fields.selection,name:project_task_stock.selection__project_task__stock_state__cancel
+#: model_terms:ir.ui.view,arch_db:project_task_stock.view_stock_move_raw_list
+msgid "Cancel"
+msgstr "Скасувати"
+
+#. module: project_task_stock
+#: model_terms:ir.ui.view,arch_db:project_task_stock.view_task_form2
+msgid "Cancel Materials"
+msgstr "Скасувати матеріали"
+
+#. module: project_task_stock
+#: model_terms:ir.ui.view,arch_db:project_task_stock.view_stock_move_raw_list
+msgid "Consumed"
+msgstr "Спожито"
+
+#. module: project_task_stock
+#: model:ir.model.fields,field_description:project_task_stock.field_project_project__location_dest_id
+#: model:ir.model.fields,field_description:project_task_stock.field_project_task__location_dest_id
+msgid "Destination Location"
+msgstr "Місце призначення"
+
+#. module: project_task_stock
+#: model:ir.model.fields,field_description:project_task_stock.field_project_task__distribution_analytic_account_ids
+msgid "Distribution Analytic Account"
+msgstr "Аналітичний рахунок розподілу"
+
+#. module: project_task_stock
+#: model:ir.model.fields,field_description:project_task_stock.field_project_task__done_stock_moves
+#: model:ir.model.fields,field_description:project_task_stock.field_project_task_type__done_stock_moves
+msgid "Done Stock Moves"
+msgstr "Виконані складські переміщення"
+
+#. module: project_task_stock
+#: model:ir.actions.act_window,name:project_task_stock.action_project_task_moves
+msgid "Inventory Moves"
+msgstr "Переміщення запасів"
+
+#. module: project_task_stock
+#: model_terms:ir.ui.view,arch_db:project_task_stock.view_task_form2
+msgid "Lock"
+msgstr "Заблокувати"
+
+#. module: project_task_stock
+#: model:ir.model.fields,field_description:project_task_stock.field_project_project__picking_type_id
+#: model:ir.model.fields,field_description:project_task_stock.field_project_task__picking_type_id
+msgid "Operation Type"
+msgstr "Тип операції"
+
+#. module: project_task_stock
+#: model_terms:ir.ui.view,arch_db:project_task_stock.view_task_form2
+msgid "Product Moves"
+msgstr "Переміщення товарів"
+
+#. module: project_task_stock
+#: model:ir.model.fields,field_description:project_task_stock.field_account_analytic_line__stock_task_id
+msgid "Project Task"
+msgstr "Завдання проєкту"
+
+#. module: project_task_stock
+#. odoo-python
+#: code:addons/project_task_stock/models/project_task.py:0
+#: model:ir.model,name:project_task_stock.model_stock_scrap
+#: model_terms:ir.ui.view,arch_db:project_task_stock.view_task_form2
+msgid "Scrap"
+msgstr "Брак"
+
+#. module: project_task_stock
+#: model:ir.model.fields,field_description:project_task_stock.field_project_project__location_id
+#: model:ir.model.fields,field_description:project_task_stock.field_project_task__location_id
+msgid "Source Location"
+msgstr "Початкове місце"
+
+#. module: project_task_stock
+#: model_terms:ir.ui.view,arch_db:project_task_stock.edit_project
+msgid "Stock"
+msgstr "Запас"
+
+#. module: project_task_stock
+#: model:ir.model.fields,field_description:project_task_stock.field_project_project__stock_analytic_date
+#: model:ir.model.fields,field_description:project_task_stock.field_project_task__stock_analytic_date
+msgid "Stock Analytic Date"
+msgstr "Аналітична дата запасів"
+
+#. module: project_task_stock
+#: model_terms:ir.ui.view,arch_db:project_task_stock.view_task_form2
+msgid "Stock Info"
+msgstr "Інформація про запас"
+
+#. module: project_task_stock
+#: model_terms:ir.ui.view,arch_db:project_task_stock.view_stock_move_raw_list
+msgid "To Consume"
+msgstr "До споживання"
+
+#. module: project_task_stock
+#: model_terms:ir.ui.view,arch_db:project_task_stock.view_task_form2
+msgid "Unlock"
+msgstr "Розблокувати"
+
+#. module: project_task_stock
+#: model_terms:ir.ui.view,arch_db:project_task_stock.view_task_form2
+msgid "Unreserve"
+msgstr "Зняти резервування"
+
+#. module: project_task_stock
+#: model:ir.model.fields,field_description:project_task_stock.field_project_task__use_stock_moves
+#: model:ir.model.fields,field_description:project_task_stock.field_project_task_type__use_stock_moves
+msgid "Use Stock Moves"
+msgstr "Використовувати складські переміщення"

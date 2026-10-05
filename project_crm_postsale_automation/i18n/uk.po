@@ -48,3 +48,40 @@ msgstr "Проєкт"
 #: model:ir.model.fields,field_description:project_crm_postsale_automation.field_project_project__postsale_rule
 msgid "Unit"
 msgstr "Одиниця"
+
+#. module: project_crm_postsale_automation
+#: model:ir.model.fields,field_description:project_crm_postsale_automation.field_project_project__postsale_notes
+#: model_terms:ir.ui.view,arch_db:project_crm_postsale_automation.view_project_postsale_form
+msgid "Internal Notes"
+msgstr "Внутрішні примітки"
+
+#. module: project_crm_postsale_automation
+#: model:ir.model.fields,field_description:project_crm_postsale_automation.field_project_project__postsale_name_template
+msgid "Name Template"
+msgstr "Шаблон назви"
+
+#. module: project_crm_postsale_automation
+#: model:ir.model.fields,field_description:project_crm_postsale_automation.field_project_project__postsale_lead_count
+#: model_terms:ir.ui.view,arch_db:project_crm_postsale_automation.view_project_postsale_form
+msgid "Post-sale Leads"
+msgstr "Ліди після продажу"
+
+#. module: project_crm_postsale_automation
+#: model:ir.model.fields.selection,name:project_crm_postsale_automation.selection__project_project__postsale_rule__quarters
+msgid "Quarters"
+msgstr "Квартали"
+
+#. module: project_crm_postsale_automation
+#: model:ir.model.fields.selection,name:project_crm_postsale_automation.selection__project_project__postsale_rule__semesters
+msgid "Semesters"
+msgstr "Півріччя"
+
+#. module: project_crm_postsale_automation
+#: model:ir.model.fields.selection,name:project_crm_postsale_automation.selection__project_project__postsale_rule__weeks
+msgid "Weeks"
+msgstr "Тижні"
+
+#. module: project_crm_postsale_automation
+#: model:ir.model.fields.selection,name:project_crm_postsale_automation.selection__project_project__postsale_rule__years
+msgid "Years"
+msgstr "Роки"

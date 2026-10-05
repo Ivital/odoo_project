@@ -32,3 +32,33 @@ msgstr "Створено"
 #: model:ir.model.fields,field_description:project_merge.field_project_task_merge__display_name
 msgid "Display Name"
 msgstr "Відображувана назва"
+
+#. module: project_merge
+#: model_terms:ir.ui.view,arch_db:project_merge.project_task_merge_view_form
+msgid "Cancel"
+msgstr "Скасувати"
+
+#. module: project_merge
+#: model:ir.model.fields,field_description:project_merge.field_project_task_merge__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: project_merge
+#: model:ir.model.fields,field_description:project_merge.field_project_task_merge__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: project_merge
+#: model_terms:ir.ui.view,arch_db:project_merge.project_task_merge_view_form
+msgid "Merge Tasks"
+msgstr "Об'єднати завдання"
+
+#. module: project_merge
+#: model:ir.model.fields,field_description:project_merge.field_project_task_merge__dst_task_name
+msgid "New task name"
+msgstr "Нова назва завдання"
+
+#. module: project_merge
+#: model:ir.model.fields,field_description:project_merge.field_project_task_merge__task_ids
+msgid "Tasks to Merge"
+msgstr "Завдання для об’єднання"

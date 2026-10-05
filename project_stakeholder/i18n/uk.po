@@ -51,3 +51,39 @@ msgstr "Зацікавлена сторона"
 #: model:ir.ui.menu,name:project_stakeholder.menu_project_stakeholder_role
 msgid "Stakeholder Roles"
 msgstr "Ролі зацікавлених сторін"
+
+#. module: project_stakeholder
+#: model:ir.model.fields,field_description:project_stakeholder.field_project_stakeholder__write_uid
+#: model:ir.model.fields,field_description:project_stakeholder.field_project_stakeholder_role__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: project_stakeholder
+#: model:ir.model.fields,field_description:project_stakeholder.field_project_stakeholder__write_date
+#: model:ir.model.fields,field_description:project_stakeholder.field_project_stakeholder_role__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: project_stakeholder
+#: model:ir.actions.act_window,name:project_stakeholder.action_project_stakeholder_role
+#: model_terms:ir.ui.view,arch_db:project_stakeholder.view_project_stakeholder_role_form
+msgid "Project Stakeholder Roles"
+msgstr "Ролі зацікавлених сторін проєкту"
+
+#. module: project_stakeholder
+#: model:ir.model.fields,field_description:project_stakeholder.field_project_stakeholder__role_id
+#: model:ir.model.fields,field_description:project_stakeholder.field_project_stakeholder_role__name
+msgid "Stakeholder Role"
+msgstr "Роль зацікавленої сторони"
+
+#. module: project_stakeholder
+#: model:ir.model.fields,field_description:project_stakeholder.field_res_partner__stakeholder_ids
+#: model:ir.model.fields,field_description:project_stakeholder.field_res_users__stakeholder_ids
+#: model_terms:ir.ui.view,arch_db:project_stakeholder.view_partner_form
+msgid "Stakeholder in Projects"
+msgstr "Зацікавлена сторона в проєктах"
+
+#. module: project_stakeholder
+#: model:ir.model.fields,field_description:project_stakeholder.field_project_project__stakeholder_ids
+msgid "Stakeholders"
+msgstr "Зацікавлені сторони"
